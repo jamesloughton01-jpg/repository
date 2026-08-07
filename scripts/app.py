@@ -286,12 +286,12 @@ def render_homescreen() -> None:
             bottom: 0;
             font-weight: 700;
             font-family: 'Source Serif Pro', Georgia, serif;
-            color: rgba(230, 200, 140, 0.85);
+            color: rgba(255, 75, 75, 0.85);
             white-space: nowrap;
             animation-name: floatUp;
             animation-timing-function: linear;
             animation-iteration-count: infinite;
-            text-shadow: 0 0 12px rgba(230, 200, 140, 0.25);
+            text-shadow: 0 0 12px rgba(255, 75, 75, 0.25);
         }}
         </style>
         <div class="float-stage">
