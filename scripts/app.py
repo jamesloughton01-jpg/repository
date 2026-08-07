@@ -7,6 +7,7 @@ phrases, and grammar tables with search/filter, plus a quiz mode. Also
 reads the parallel-text poems directly from texts/*.md.
 """
 
+import html
 import random
 import re
 import sqlite3
@@ -219,6 +220,85 @@ def load_sentence_pool() -> pd.DataFrame:
     return pd.concat([sent_df, practice_df], ignore_index=True), len(sent_df), len(practice_df)
 
 
+_CLEAN_TERM_RE = re.compile(r"[A-Za-z][A-Za-z '-]*")
+
+
+def _gloss_terms(gloss: str) -> list:
+    """Split a dictionary gloss like 'wealth, cattle' or 'the Measurer
+    (God, or Fate)' into short standalone terms usable for lookup.
+    Sweet's Dictionary glosses are raw, unedited dictionary definitions
+    and can contain footnote marks, abbreviations, and other notation
+    (e.g. daggers marking obsolete words) — anything that isn't a clean
+    run of letters is rejected rather than risk leaking that notation
+    into a translation."""
+    cleaned = re.sub(r"\([^)]*\)", " ", gloss)
+    cleaned = re.sub(r"—.*$", "", cleaned)
+    parts = re.split(r"[;,/]|\bor\b", cleaned)
+    terms = []
+    for part in parts:
+        term = part.strip().strip(".!?;:").strip()
+        term = re.sub(r"^(a|an|the)\s+", "", term, flags=re.IGNORECASE).strip()
+        if term and len(term) < 40 and _CLEAN_TERM_RE.fullmatch(term):
+            terms.append(term)
+    return terms
+
+
+@st.cache_data
+def build_translation_maps() -> tuple:
+    """Build word-lookup dicts for the translator box: Old English -> a
+    short Modern English gloss, and Modern English -> an Old English
+    headword. vocabulary.md is indexed first so it always wins; Sweet's
+    Dictionary only fills in words vocabulary.md doesn't have."""
+    oe_to_mode: dict = {}
+    mode_to_oe: dict = {}
+
+    def index(df: pd.DataFrame) -> None:
+        for _, row in df.iterrows():
+            oe_field = str(row.get("word", "") or "").strip()
+            gloss_field = str(row.get("gloss", "") or "").strip()
+            if not oe_field or not gloss_field:
+                continue
+            oe_variants = [v.strip() for v in oe_field.split("/") if v.strip()]
+            if not oe_variants:
+                continue
+            terms = _gloss_terms(gloss_field)
+            if terms:
+                for oe_word in oe_variants:
+                    oe_to_mode.setdefault(oe_word.lower(), terms[0])
+            for term in terms:
+                mode_to_oe.setdefault(term.lower(), oe_variants[0])
+                if term.lower().startswith("to "):
+                    mode_to_oe.setdefault(term.lower()[3:], oe_variants[0])
+
+    index(load_table("vocabulary"))
+    index(load_table("vocabulary_sweet"))
+    return oe_to_mode, mode_to_oe
+
+
+_WORD_RE = re.compile(r"^(\W*)(\w+)(\W*)$", re.UNICODE)
+
+
+def translate_text(text: str, target: str, oe_to_mode: dict, mode_to_oe: dict) -> str:
+    """Word-for-word dictionary substitution (not real machine translation).
+    Words not found in either dictionary are left exactly as typed."""
+    lookup = mode_to_oe if target == "Old English" else oe_to_mode
+    out = []
+    for token in text.split(" "):
+        m = _WORD_RE.match(token)
+        if not m:
+            out.append(token)
+            continue
+        lead, core, trail = m.groups()
+        replacement = lookup.get(core.lower())
+        if replacement is None:
+            out.append(token)
+        else:
+            if core[0].isupper():
+                replacement = replacement[0].upper() + replacement[1:]
+            out.append(lead + replacement + trail)
+    return " ".join(out)
+
+
 st.title("Old English Repository")
 
 # Subtitle alternates between English and an Old English rendering every 5s.
@@ -259,6 +339,55 @@ components.html(
 if not DB_PATH.exists():
     st.error(f"No database found at {DB_PATH}. Run `python scripts/build_db.py` first.")
     st.stop()
+
+st.markdown(
+    """
+    <style>
+    div[data-testid="stTextInput"] input[aria-label="Translator"] {
+        font-size: 1.4rem;
+        padding: 0.8rem 1.1rem;
+        border-radius: 10px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+translate_target = st.radio(
+    "Translate into",
+    ["Old English", "Modern English"],
+    key="translate_target",
+    horizontal=True,
+)
+translate_input = st.text_input(
+    "Translator",
+    key="translate_input",
+    placeholder="Type a word or phrase to translate…",
+    label_visibility="collapsed",
+)
+if translate_input.strip():
+    _oe_to_mode, _mode_to_oe = build_translation_maps()
+    _result = translate_text(translate_input, translate_target, _oe_to_mode, _mode_to_oe)
+    st.markdown(
+        f"""<div style="
+            font-size: 1.5rem;
+            font-weight: 600;
+            padding: 0.9rem 1.1rem;
+            margin: 0.5rem 0 1rem 0;
+            border: 1px solid rgba(150, 150, 150, 0.35);
+            border-radius: 10px;
+            background: rgba(150, 150, 150, 0.06);
+        ">{html.escape(_result)}</div>""",
+        unsafe_allow_html=True,
+    )
+    st.caption(
+        "Word-for-word dictionary lookup — vocabulary.md first, then Sweet's "
+        "Dictionary; words not found in either are left unchanged."
+    )
+else:
+    st.caption(
+        "Word-for-word translator: checks vocabulary.md first, then Sweet's "
+        "Dictionary; unmatched words are left as typed."
+    )
 
 tab_vocab, tab_phrases, tab_grammar, tab_alphabet, tab_runes, tab_practice, tab_texts, tab_quiz = st.tabs(
     ["Vocabulary", "Phrases", "Grammar", "Alphabet", "Runes", "Practice Sentences", "Texts", "Quiz"]
