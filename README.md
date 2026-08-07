@@ -6,34 +6,44 @@ for private language-learning use. Browsed and quizzed via a Streamlit app.
 
 ## Project status (last updated 2026-08-07)
 
-- **Vocabulary**: [`vocabulary.md`](vocabulary.md) — 378 hand-curated
+- **Vocabulary**: [`vocabulary.md`](vocabulary.md) — 508 hand-curated
   entries, cross-referenced against every text in `texts/` so common words
   appearing in the texts are covered.
-- **Texts**: [`texts/`](texts/) — 17 full parallel-translation (Old
+- **Texts**: [`texts/`](texts/) — 19 full parallel-translation (Old
   English / Modern English) works: Beowulf (partial — see note below),
   The Battle of Maldon, The Wanderer, The Seafarer, The Dream of the Rood,
   Cædmon's Hymn, The Ruin, Bede's Death Song, The Battle of Brunanburh,
   The Finnsburh Fragment, The Descent into Hell, Maxims I, The Rune Poem,
   Ælfric's Life of St Edmund, a curated Exeter Book Riddles selection,
-  Durham, and a selection of Metrical Charms. All Modern English
-  translations are my own original composition (see Sourcing below).
-  **Beowulf is deliberately frozen** at lines 1–257 (Prelude + Fitts I–III)
-  and is not being extended further — see the note at the top of
-  `texts/beowulf.md` for why.
+  Durham, a selection of Metrical Charms, The Wife's Lament, and The
+  Husband's Message. All Modern English translations are my own original
+  composition (see Sourcing below). **Beowulf is deliberately frozen** at
+  lines 1–257 (Prelude + Fitts I–III) and is not being extended further —
+  see the note at the top of `texts/beowulf.md` for why.
 - **Phrases**: [`phrases.md`](phrases.md) — 19 notable lines with citations.
 - **Grammar**: [`grammar.md`](grammar.md) — 11 topics (cases, gender, verb
   classes, adjective declension, word order, dual pronouns, negation,
   prepositions, the "sceal" construction, relative clauses, kennings).
 - **Alphabet**: [`alphabet.md`](alphabet.md) — letters and pronunciation.
-- **Sentences**: [`sentences.md`](sentences.md) — 25 short clauses excerpted
+- **Runes**: [`runes.md`](runes.md) — all 29 Futhorc runes plus background
+  on their development and replacement by the Latin alphabet; shown in the
+  app as a grid of large clickable squares (click reveals name/sound/
+  meaning), not a plain table.
+- **Sentences**: [`sentences.md`](sentences.md) — 50 short clauses excerpted
   from texts already in the repo; [`practice-sentences.md`](practice-sentences.md)
-  — 20 original grammar-drilling sentences I composed (not from any text).
+  — 46 original grammar-drilling sentences I composed (not from any text).
 - **App**: [`scripts/app.py`](scripts/app.py) — Streamlit app with tabs for
-  Vocabulary, Phrases, Grammar, Alphabet, Practice Sentences, Texts, and
-  Quiz (Words / Sentences / Fill-in-the-Blank modes), plus an animated
+  Vocabulary, Phrases, Grammar, Alphabet, Runes, Practice Sentences, Texts,
+  and Quiz (Words / Sentences / Fill-in-the-Blank modes), plus an animated
   English↔Old English subtitle under the title.
 - **Bulk dictionary**: Henry Sweet's *A Student's Dictionary of
   Anglo-Saxon*, ~25,600 entries, optional merge-in (see below).
+- **Sourcing note**: two texts (`durham.md`, `exeter-book-riddles.md`) had
+  an inaccurate Old English text citation ("Cook & Tinker 1902") that was
+  traced and corrected; several other texts (Seafarer, Cædmon's Hymn,
+  Maxims I, Descent into Hell, Finnsburh Fragment, Bede's Death Song, the
+  Metrical Charms) still carry that same unverified citation and haven't
+  been re-checked yet.
 
 To continue this project in a new session, just point Claude at this
 repo directory — this README plus the files it links to are enough context
@@ -45,6 +55,8 @@ to pick up where things left off. No other state needs to be carried over.
 - [`phrases.md`](phrases.md) — idioms, formulas, and notable lines from texts
 - [`grammar.md`](grammar.md) — case system, verb classes, syntax rules
 - [`alphabet.md`](alphabet.md) — letters, vowels, consonant/pronunciation rules
+- [`runes.md`](runes.md) — the 29 Futhorc runes, their development, and
+  their replacement by the Latin alphabet
 - [`sentences.md`](sentences.md) — short clauses excerpted from `texts/`
 - [`practice-sentences.md`](practice-sentences.md) — original sentences for
   grammar drilling (not from any historical text; read live by the app,
@@ -60,16 +72,20 @@ to pick up where things left off. No other state needs to be carried over.
 - [`scripts/build_db.py`](scripts/build_db.py) — compiles the Markdown
   tables (`vocabulary.md`, `phrases.md`, `grammar.md`, `sentences.md`) and
   the Sweet CSV into `old_english.db` (SQLite) for querying and quizzing.
-  `texts/*.md`, `alphabet.md`, and `practice-sentences.md` are read live
-  from disk by the app instead, since they don't fit the single-table shape.
+  `texts/*.md`, `alphabet.md`, `runes.md`, and `practice-sentences.md` are
+  read live from disk by the app instead, since they don't fit the
+  single-table shape.
 - [`scripts/import_sweet.py`](scripts/import_sweet.py) — re-fetches and
   re-parses the Sweet dictionary source into `data/sweet-dictionary.csv`
 - [`scripts/app.py`](scripts/app.py) — Streamlit app (`streamlit run
-  scripts/app.py`) with Vocabulary/Phrases/Grammar/Alphabet/Practice
+  scripts/app.py`) with Vocabulary/Phrases/Grammar/Alphabet/Runes/Practice
   Sentences/Texts/Quiz tabs; a checkbox optionally merges in Sweet's
-  Dictionary. **After editing any Markdown file or rebuilding the DB, fully
-  stop and restart the Streamlit server** — `@st.cache_data` plus process
-  reuse means a plain reload can serve stale data.
+  Dictionary. The Runes tab renders `runes.md`'s table as a grid of large
+  clickable squares (`render_rune_grid()`, pure CSS click-to-reveal, no
+  server round-trip) instead of a plain table. **After editing any
+  Markdown file or rebuilding the DB, fully stop and restart the Streamlit
+  server** — `@st.cache_data` plus process reuse means a plain reload can
+  serve stale data.
 
 Each hand-curated file is a single Markdown table (one row = one entry) or,
 for larger reference sections, several tables split by `## ` subheadings.

@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = ROOT / "old_english.db"
 TEXTS_DIR = ROOT / "texts"
 ALPHABET_PATH = ROOT / "alphabet.md"
+RUNES_PATH = ROOT / "runes.md"
 PRACTICE_PATH = ROOT / "practice-sentences.md"
 
 st.set_page_config(page_title="Old English Repository", layout="wide")
@@ -106,6 +107,100 @@ def load_text(path_str: str) -> tuple:
     return header, sections
 
 
+def render_rune_grid(df: pd.DataFrame) -> None:
+    """Render a grid of large clickable rune squares (pure CSS flip-card,
+    no server round-trip: click reveals name/sound/meaning instantly)."""
+    cols = list(df.columns)
+    rune_col, name_col, sound_col, meaning_col = cols[0], cols[1], cols[2], cols[3]
+
+    cards = []
+    for i, row in df.iterrows():
+        cards.append(f"""
+        <label class="rune-card" for="rune-{i}">
+          <input type="checkbox" id="rune-{i}" class="rune-toggle">
+          <span class="rune-face">
+            <span class="rune-glyph">{row[rune_col]}</span>
+          </span>
+          <span class="rune-back">
+            <strong>{row[name_col]}</strong>
+            <span>Sound: {row[sound_col]}</span>
+            <span class="rune-meaning">&ldquo;{row[meaning_col]}&rdquo;</span>
+          </span>
+        </label>""")
+
+    st.markdown(
+        f"""
+        <style>
+        .runes-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 14px;
+            margin: 1rem 0 2rem 0;
+        }}
+        .rune-card {{
+            position: relative;
+            display: block;
+            aspect-ratio: 1 / 1;
+            border: 2px solid rgba(150, 150, 150, 0.4);
+            border-radius: 10px;
+            cursor: pointer;
+            overflow: hidden;
+            background: rgba(150, 150, 150, 0.06);
+            transition: background 0.15s ease, transform 0.15s ease;
+        }}
+        .rune-card:hover {{
+            background: rgba(150, 150, 150, 0.16);
+            transform: translateY(-2px);
+        }}
+        .rune-toggle {{
+            position: absolute;
+            width: 0;
+            height: 0;
+            opacity: 0;
+            pointer-events: none;
+        }}
+        .rune-face, .rune-back {{
+            position: absolute;
+            inset: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 6px;
+            transition: opacity 0.15s ease;
+        }}
+        .rune-glyph {{
+            font-size: 3.2rem;
+            line-height: 1;
+        }}
+        .rune-back {{
+            opacity: 0;
+            gap: 3px;
+            font-size: 0.72rem;
+            color: #f5f5f5;
+            background: rgba(20, 20, 20, 0.92);
+        }}
+        .rune-back strong {{
+            font-size: 0.95rem;
+        }}
+        .rune-meaning {{
+            font-style: italic;
+            opacity: 0.85;
+        }}
+        .rune-toggle:checked ~ .rune-face {{
+            opacity: 0;
+        }}
+        .rune-toggle:checked ~ .rune-back {{
+            opacity: 1;
+        }}
+        </style>
+        <div class="runes-grid">{"".join(cards)}</div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 def load_sentence_pool() -> pd.DataFrame:
     sent_df = load_table("sentences").rename(
         columns={"old_english": "prompt", "gloss": "answer"}
@@ -165,8 +260,8 @@ if not DB_PATH.exists():
     st.error(f"No database found at {DB_PATH}. Run `python scripts/build_db.py` first.")
     st.stop()
 
-tab_vocab, tab_phrases, tab_grammar, tab_alphabet, tab_practice, tab_texts, tab_quiz = st.tabs(
-    ["Vocabulary", "Phrases", "Grammar", "Alphabet", "Practice Sentences", "Texts", "Quiz"]
+tab_vocab, tab_phrases, tab_grammar, tab_alphabet, tab_runes, tab_practice, tab_texts, tab_quiz = st.tabs(
+    ["Vocabulary", "Phrases", "Grammar", "Alphabet", "Runes", "Practice Sentences", "Texts", "Quiz"]
 )
 
 with tab_vocab:
@@ -206,6 +301,19 @@ with tab_alphabet:
             st.dataframe(
                 sec["df"], use_container_width=True, hide_index=True, height=row_height
             )
+            if sec["note"]:
+                st.markdown(sec["note"])
+
+with tab_runes:
+    if not RUNES_PATH.exists():
+        st.info("runes.md not found.")
+    else:
+        header, sections = load_text(str(RUNES_PATH))
+        st.markdown(header)
+        for sec in sections:
+            if sec["title"]:
+                st.subheader(sec["title"])
+            render_rune_grid(sec["df"])
             if sec["note"]:
                 st.markdown(sec["note"])
 
