@@ -254,8 +254,14 @@ def render_homescreen() -> None:
     st.markdown(
         textwrap.dedent(
             f"""
+            <style>
+            .oe-home-title {{ margin-bottom:0; font-family:{TITLE_FONT} !important; color:{OE_ACCENT} !important; }}
+            @media (max-width: 480px) {{
+                .oe-home-title {{ font-size: 2rem !important; }}
+            }}
+            </style>
             <div style="text-align:center; margin-top:2rem;">
-                <h1 style="margin-bottom:0; font-family:{TITLE_FONT}; color:{OE_ACCENT};">Old English Repository</h1>
+                <h1 class="oe-home-title">Old English Repository</h1>
                 <p style="color:rgba(250,250,250,0.65); font-size:1.05rem; margin-top:0.3rem;">
                     Wilcuma. Welcome. Click Start when you're ready to begin.
                 </p>
@@ -319,6 +325,9 @@ def render_homescreen() -> None:
             animation-timing-function: linear;
             animation-iteration-count: infinite;
             text-shadow: 0 0 12px rgba(255, 75, 75, 0.25);
+        }}
+        @media (max-width: 480px) {{
+            .floating-word {{ font-size: 1.15rem !important; }}
         }}
         </style>
         <div class="float-stage">
@@ -560,10 +569,19 @@ if not st.session_state.app_started:
 st.markdown(
     textwrap.dedent(
         f"""
-        <div style="display:flex; align-items:center; gap:2.5rem;">
-            <h1 style="margin:0; font-size:3.6rem; font-family:{TITLE_FONT}; color:{OE_ACCENT};">Old English Repository</h1>
-            <img src="{load_helmet_data_uri()}" alt="Sutton Hoo helmet"
-                 style="width:130px; flex-shrink:0; margin-top:2rem;">
+        <style>
+        .oe-title-row {{ display:flex; align-items:center; gap:2.5rem; flex-wrap:wrap; }}
+        .oe-title-row h1 {{ margin:0; font-size:3.6rem; font-family:{TITLE_FONT}; color:{OE_ACCENT}; }}
+        .oe-title-row img {{ width:130px; flex-shrink:0; margin-top:2rem; }}
+        @media (max-width: 480px) {{
+            .oe-title-row {{ gap:0.8rem; }}
+            .oe-title-row h1 {{ font-size: 2rem !important; }}
+            .oe-title-row img {{ width: 70px !important; margin-top: 0 !important; }}
+        }}
+        </style>
+        <div class="oe-title-row">
+            <h1>Old English Repository</h1>
+            <img src="{load_helmet_data_uri()}" alt="Sutton Hoo helmet">
         </div>
         """
     ).strip(),
