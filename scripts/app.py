@@ -559,7 +559,7 @@ st.markdown(
         <div style="display:flex; align-items:center; gap:2.5rem;">
             <h1 style="margin:0; font-size:3.6rem; font-family:{TITLE_FONT}; color:{OE_ACCENT};">Old English Repository</h1>
             <img src="{load_helmet_data_uri()}" alt="Sutton Hoo helmet"
-                 style="width:110px; flex-shrink:0; margin-top:1rem;">
+                 style="width:110px; flex-shrink:0; margin-top:2rem;">
         </div>
         """
     ).strip(),
