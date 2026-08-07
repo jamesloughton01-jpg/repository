@@ -6,11 +6,19 @@ part of the point. This is a curated selection of 15 of the most famous
 and confidently-solved riddles, rather than the full collection, which
 runs to well over a thousand lines and includes many fragmentary or
 disputed pieces. Solutions are given after each riddle; try guessing
-before reading them. Old English text: sacred-texts.com, Cook & Tinker,
-*Select Translations from Old English Poetry* (1902), public domain.
-Modern English translation: own work for this repository, prose rendering
-(not verse). Numbering follows this source; other editions (Krapp-Dobbie,
-Williamson, Muir) number riddles differently.
+before reading them. Old English text: cross-checked against Grein
+(founder) and Wülcker (reviser), *Bibliothek der angelsächsischen Poesie*,
+Band III, Heft 1 (Kassel: Georg H. Wigand, 1897), a public-domain
+scholarly edition (over 125 years old; corrected from an earlier,
+inaccurate citation to Cook & Tinker's 1902 translation-only anthology,
+which does not actually contain the Old English text). Modern English
+translation: own work for this repository, prose rendering (not verse).
+Numbering here starts the count at the first true riddle and does not
+count *Wulf and Eadwacer* as riddle 1 the way Grein-Wülcker's edition
+does — so each number below is one less than that edition's Roman
+numeral (e.g. this collection's Riddle 1 is their Riddle II). Other
+modern editions (Krapp-Dobbie, Williamson, Muir) number riddles
+differently still.
 
 ## Riddle 1 — Storm
 

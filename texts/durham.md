@@ -4,8 +4,10 @@
 relics housed in its cathedral shortly after St Cuthbert's body was moved
 there. One of the very last poems written in the classical Old English
 alliterative style, right at the edge of the Old English/Middle English
-transition. Old English text: sacred-texts.com, Cook & Tinker, *Select
-Translations from Old English Poetry* (1902), public domain. Modern
+transition. Old English text: Wikipedia, "Durham (poem)" (CC BY-SA 4.0),
+reflecting standard scholarly editions of the poem (corrected from an
+earlier, inaccurate citation to Cook & Tinker's 1902 translation-only
+anthology, which does not actually contain the Old English text). Modern
 English translation: own work for this repository, prose rendering (not
 verse).
 

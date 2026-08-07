@@ -49,7 +49,14 @@
       "Bash(curl -s \"https://en.wikisource.org/wiki/Beowulf_\\(Wyatt\\)/Beowulf_03?action=raw\" -o scratch/beo03.wiki)",
       "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\)\" \"https://sacred-texts.com/neu/ascp/index.htm\" -o scratch/index.htm)",
       "Bash(git init *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git config *)",
+      "WebFetch(domain:www.sacred-texts.com)",
+      "WebFetch(domain:www.oldenglishaerobics.net)",
+      "WebFetch(domain:archive.org)",
+      "Bash(curl -sL \"https://archive.org/download/bub_gb_sIUPAAAAMAAJ/bub_gb_sIUPAAAAMAAJ_djvu.txt\" -o lesebuch.txt --max-time 60)",
+      "Bash(curl -sL \"https://archive.org/download/bibliothekderangelsachsischenpoesieb3h1/Bibliothek_der_angelsachsischen_Poesie_B3_H1_djvu.txt\" -o grein_b3h1.txt --max-time 90)"
     ]
   }
 }
