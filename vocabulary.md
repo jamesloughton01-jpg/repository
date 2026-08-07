@@ -221,6 +221,7 @@
 | wita | wise man, counselor | noun, masc. | "ne þǣr nǣnig witena wēnan þorfte" — Beowulf, Fitt II | Wikisource: *Beowulf* (Wyatt) |
 | lǣce | physician, doctor | noun, masc. | "Lēf mon lǣces behōfaþ" — Maxims I | sacred-texts.com; Cook & Tinker (1902) |
 | bōc | book | noun, fem. | "sceal bryde bēag, bēc lēornere" — Maxims I | sacred-texts.com; Cook & Tinker (1902) |
+| gēar | year | noun, neut. | — | Bosworth-Toller |
 | gewrit | writing, letter, scripture | noun, neut. | "þe wē hēr nellaþ on gewrite settan" — Ælfric's Life of St Edmund | Wikisource: Skeat's *Ælfric's Lives of Saints* (1881) |
 | gyrd | rod, staff, twig | noun, fem. | "Ic mē on þisse gyrde belūce" — A Journey Charm | sacred-texts.com; Cook & Tinker (1902) |
 | rūn | rune, secret, mystery | noun, fem. | "rǣd sceal mon secgan, rūne wrītan" — Maxims I | sacred-texts.com; Cook & Tinker (1902) |

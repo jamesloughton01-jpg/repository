@@ -264,9 +264,8 @@ def _gloss_terms(gloss: str) -> list:
 # infinitive fine but not "hæbbe" ("I have"). Full conjugation is out of
 # scope, but these five verbs are so frequent that leaving every inflected
 # form untranslated would make the translator feel broken on ordinary
-# sentences. This supplements (never overrides) the dictionary-driven
-# Old-English-to-Modern-English direction only; translating a Modern
-# English verb still correctly produces the Old English infinitive.
+# sentences. Old-English-to-Modern-English direction only; translating a
+# Modern English verb still correctly produces the Old English infinitive.
 _IRREGULAR_OE_VERB_FORMS = {
     # habban "to have"
     "hæbbe": "have", "hafast": "have", "hafaþ": "have", "hafað": "have",
@@ -288,6 +287,24 @@ _IRREGULAR_OE_VERB_FORMS = {
     "mæg": "can", "meaht": "can", "miht": "can", "magon": "can",
     "meahte": "could", "mihte": "could", "meahton": "could", "mihton": "could",
 }
+
+# Same idea, for the handful of extremely common nouns whose plural is
+# formed by i-mutation rather than just adding an ending -- "bōc" (book)
+# is in the dictionary, but its plural "bēc" doesn't share enough letters
+# with "bōc" for any suffix-based rule to help. Limited to nouns whose
+# singular is already a vocabulary.md headword.
+_IRREGULAR_OE_NOUN_PLURALS = {
+    "bec": "books", "bēc": "books",        # bōc "book"
+    "menn": "men",                         # mann "man"
+    "fet": "feet", "fēt": "feet",          # fōt "foot"
+    "teð": "teeth", "tēð": "teeth",        # tōð "tooth"
+}
+
+_MACRON_STRIP = str.maketrans("āēīōūȳǣ", "aeiouyæ")
+
+
+def _strip_macrons(word: str) -> str:
+    return word.translate(_MACRON_STRIP)
 
 
 @st.cache_data
@@ -324,6 +341,18 @@ def build_translation_maps() -> tuple:
     # forms (e.g. Sweet's "is" also glosses the unrelated noun "ice") --
     # as a common verb form, "is" should win over a rarer homograph.
     oe_to_mode.update(_IRREGULAR_OE_VERB_FORMS)
+    oe_to_mode.update(_IRREGULAR_OE_NOUN_PLURALS)
+
+    # Macrons are a modern editorial convention -- the manuscripts never
+    # marked vowel length (see the Alphabet tab) -- so most people typing
+    # Old English won't type them either. Add a macron-stripped alias for
+    # every headword (e.g. "gear" alongside "gēar") so unaccented input
+    # still matches. setdefault only: a real unaccented word always wins
+    # over an alias derived from a different, accented one.
+    for key, value in list(oe_to_mode.items()):
+        stripped = _strip_macrons(key)
+        if stripped != key:
+            oe_to_mode.setdefault(stripped, value)
 
     return oe_to_mode, mode_to_oe
 
