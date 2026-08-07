@@ -364,6 +364,7 @@ with tab_quiz:
         if quiz_include_sweet:
             df = pd.concat([df, load_table("vocabulary_sweet")], ignore_index=True)
         prompt_col, answer_col = "word", "gloss"
+        st.caption(f"{len(df)} entries in the quiz pool.")
 
         if df.empty:
             st.info("Add some entries first.")
