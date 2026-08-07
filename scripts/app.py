@@ -48,6 +48,18 @@ def filtered_view(df: pd.DataFrame, key: str) -> pd.DataFrame:
     return df[mask.any(axis=1)]
 
 
+OE_ACCENT = "#FF4B4B"
+
+
+def style_oe_columns(df: pd.DataFrame, *columns: str):
+    """Color the given Old English columns with the same red used for the
+    active-tab underline, leaving other columns unstyled."""
+    cols = [c for c in columns if c in df.columns]
+    if not cols:
+        return df
+    return df.style.set_properties(subset=cols, **{"color": OE_ACCENT})
+
+
 @st.cache_data
 def list_texts() -> dict:
     if not TEXTS_DIR.exists():
@@ -175,6 +187,7 @@ def render_rune_grid(df: pd.DataFrame) -> None:
         .rune-glyph {{
             font-size: 3.2rem;
             line-height: 1;
+            color: {OE_ACCENT};
         }}
         .rune-back {{
             opacity: 0;
@@ -627,7 +640,10 @@ with tab_vocab:
             "Sweet entries: Henry Sweet, *A Student's Dictionary of Anglo-Saxon* (1896), "
             "HTML edition by mikepope.com, licensed CC BY-NC-SA 4.0."
         )
-    st.dataframe(filtered_view(df, "vocab_search"), use_container_width=True, hide_index=True)
+    vocab_view = filtered_view(df, "vocab_search")
+    st.dataframe(
+        style_oe_columns(vocab_view, "word"), use_container_width=True, hide_index=True
+    )
     st.caption(f"{len(df)} entries")
 
 with tab_grammar:
@@ -646,7 +662,10 @@ with tab_numbers:
                 st.subheader(sec["title"])
             row_height = min(600, 38 * (len(sec["df"]) + 1) + 3)
             st.dataframe(
-                sec["df"], use_container_width=True, hide_index=True, height=row_height
+                style_oe_columns(sec["df"], "Old English"),
+                use_container_width=True,
+                hide_index=True,
+                height=row_height,
             )
             if sec["note"]:
                 st.markdown(sec["note"])
@@ -662,7 +681,10 @@ with tab_alphabet:
                 st.subheader(sec["title"])
             row_height = min(600, 38 * (len(sec["df"]) + 1) + 3)
             st.dataframe(
-                sec["df"], use_container_width=True, hide_index=True, height=row_height
+                style_oe_columns(sec["df"], "Letter", "Letter(s)"),
+                use_container_width=True,
+                hide_index=True,
+                height=row_height,
             )
             if sec["note"]:
                 st.markdown(sec["note"])
