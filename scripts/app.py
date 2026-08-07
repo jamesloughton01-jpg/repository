@@ -543,8 +543,12 @@ def translate_text(text: str, target: str, oe_to_mode: dict, mode_to_oe: dict) -
 
 
 if not DB_PATH.exists():
-    st.error(f"No database found at {DB_PATH}. Run `python scripts/build_db.py` first.")
-    st.stop()
+    # old_english.db is gitignored (it's a generated view over the Markdown
+    # sources) and deploy targets like Streamlit Community Cloud only run
+    # this script, with no separate build step — so build it on first run.
+    from build_db import main as build_db
+
+    build_db()
 
 if "app_started" not in st.session_state:
     st.session_state.app_started = False
