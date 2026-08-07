@@ -63,7 +63,11 @@ for private language-learning use. Browsed and quizzed via a Streamlit app.
   translator search bar (Old English ⇄ Modern English, dictionary lookup
   only — vocabulary.md first, then Sweet's Dictionary, unmatched words
   left as typed; see `translate_text()` / `build_translation_maps()` in
-  `scripts/app.py`).
+  `scripts/app.py`). The app opens on a **homescreen** first
+  (`render_homescreen()`) — random vocabulary words drift up the screen,
+  alternating between Old English and their Modern English gloss, until a
+  "Start" button (gated via `st.session_state.app_started`) reveals the
+  main app.
 - **Bulk dictionary**: Henry Sweet's *A Student's Dictionary of
   Anglo-Saxon*, ~25,600 entries, optional merge-in (see below).
 - **Sourcing note**: two texts (`durham.md`, `exeter-book-riddles.md`) had

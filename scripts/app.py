@@ -221,6 +221,127 @@ def load_sentence_pool() -> pd.DataFrame:
     return pd.concat([sent_df, practice_df], ignore_index=True), len(sent_df), len(practice_df)
 
 
+def render_homescreen() -> None:
+    """Landing screen: Old/Modern English words drift up the page and
+    swap languages as they go; a real st.button (not a JS-only control,
+    since components.html runs sandboxed in an iframe and can't reach
+    back into Streamlit's own state) takes the visitor into the app."""
+    st.markdown(
+        """
+        <div style="text-align:center; margin-top:2rem;">
+            <h1 style="margin-bottom:0;">Old English Repository</h1>
+            <p style="color:rgba(250,250,250,0.65); font-size:1.05rem; margin-top:0.3rem;">
+                Wilcuma. Welcome. Click Start when you're ready to begin.
+            </p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    vocab = load_table("vocabulary")
+    pool = vocab.dropna(subset=["word", "gloss"])
+    sample = pool.sample(min(24, len(pool))) if len(pool) else pool
+
+    words = []
+    for _, row in sample.iterrows():
+        oe = str(row["word"]).replace("\\", "").replace('"', "&quot;")
+        gloss = str(row["gloss"]).split(";")[0].split(",")[0].strip()
+        en = gloss.replace('"', "&quot;") or oe
+        words.append((oe, en))
+
+    cards = []
+    for i, (oe, en) in enumerate(words):
+        left = random.uniform(2, 94)
+        duration = random.uniform(14, 26)
+        delay = -random.uniform(0, duration)
+        size = random.uniform(1.1, 2.4)
+        swap_period = random.uniform(2200, 4200)
+        swap_offset = random.uniform(0, swap_period)
+        cards.append(
+            f"""<span class="floating-word"
+                data-oe="{oe}" data-en="{en}" data-flip="0"
+                data-period="{swap_period}" data-offset="{swap_offset}"
+                style="left:{left}%; font-size:{size}rem;
+                       animation-duration:{duration}s; animation-delay:{delay}s;">{oe}</span>"""
+        )
+
+    components.html(
+        f"""
+        <style>
+        html, body {{ margin: 0; overflow: hidden; background: transparent; }}
+        .float-stage {{
+            position: relative;
+            width: 100%;
+            height: 480px;
+            overflow: hidden;
+        }}
+        @keyframes floatUp {{
+            0%   {{ transform: translateY(520px); opacity: 0; }}
+            8%   {{ opacity: 0.85; }}
+            92%  {{ opacity: 0.85; }}
+            100% {{ transform: translateY(-560px); opacity: 0; }}
+        }}
+        .floating-word {{
+            position: absolute;
+            bottom: 0;
+            font-weight: 700;
+            font-family: 'Source Serif Pro', Georgia, serif;
+            color: rgba(230, 200, 140, 0.85);
+            white-space: nowrap;
+            animation-name: floatUp;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            text-shadow: 0 0 12px rgba(230, 200, 140, 0.25);
+        }}
+        </style>
+        <div class="float-stage">
+            {"".join(cards)}
+        </div>
+        <script>
+        document.querySelectorAll('.floating-word').forEach((el) => {{
+            const oe = el.dataset.oe, en = el.dataset.en;
+            const period = parseFloat(el.dataset.period);
+            const offset = parseFloat(el.dataset.offset);
+            let showingOe = true;
+            setTimeout(() => {{
+                setInterval(() => {{
+                    el.style.transition = 'opacity 0.4s ease';
+                    el.style.opacity = 0.15;
+                    setTimeout(() => {{
+                        showingOe = !showingOe;
+                        el.textContent = showingOe ? oe : en;
+                        el.style.opacity = 0.85;
+                    }}, 400);
+                }}, period);
+            }}, offset);
+        }});
+        </script>
+        """,
+        height=480,
+    )
+
+    st.markdown(
+        """
+        <style>
+        div[data-testid="stButton"] button[kind="primary"] {
+            display: block;
+            margin: 0.5rem auto 0 auto;
+            font-size: 1.4rem;
+            font-weight: 700;
+            padding: 0.7rem 3.5rem;
+            border-radius: 999px;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+    _, mid, _ = st.columns([1, 1, 1])
+    with mid:
+        if st.button("Start", type="primary", key="start_button", use_container_width=True):
+            st.session_state.app_started = True
+            st.rerun()
+
+
 _CLEAN_TERM_RE = re.compile(r"[A-Za-z][A-Za-z '-]*")
 _PARADIGM_GLOSS_RE = re.compile(
     r"\(\s*(ic|þū|þu|hē|he|hēo|heo|hit|wē|we|gē|ge|hīe|hie|hi|þēc|þonne)\s*\)", re.IGNORECASE
@@ -381,6 +502,17 @@ def translate_text(text: str, target: str, oe_to_mode: dict, mode_to_oe: dict) -
     return " ".join(out)
 
 
+if not DB_PATH.exists():
+    st.error(f"No database found at {DB_PATH}. Run `python scripts/build_db.py` first.")
+    st.stop()
+
+if "app_started" not in st.session_state:
+    st.session_state.app_started = False
+
+if not st.session_state.app_started:
+    render_homescreen()
+    st.stop()
+
 st.title("Old English Repository")
 
 # Subtitle alternates between English and an Old English rendering every 5s.
@@ -417,10 +549,6 @@ components.html(
     """,
     height=50,
 )
-
-if not DB_PATH.exists():
-    st.error(f"No database found at {DB_PATH}. Run `python scripts/build_db.py` first.")
-    st.stop()
 
 st.markdown(
     """
