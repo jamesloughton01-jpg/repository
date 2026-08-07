@@ -12,6 +12,7 @@ import html
 import random
 import re
 import sqlite3
+import textwrap
 from pathlib import Path
 
 import pandas as pd
@@ -68,6 +69,26 @@ def load_title_font_data_uri() -> str:
     URI so the title renders without any external font request."""
     data = TITLE_FONT_PATH.read_bytes()
     return "data:font/ttf;base64," + base64.b64encode(data).decode("ascii")
+
+
+def title_font_face_css() -> str:
+    """@font-face block for Celtica-Bold; each call site needs its own
+    (homescreen and main title render in separate st.markdown calls, and
+    homescreen st.stop()s before the main title's block would run).
+    Dedented to a zero-indent baseline: concatenating this with a second,
+    differently-indented HTML string confuses Streamlit's Markdown-to-HTML
+    conversion (a 4+-space-indented line reads as a code block, not HTML)."""
+    return textwrap.dedent(
+        f"""
+        <style>
+        @font-face {{
+            font-family: 'Celtica';
+            src: url('{load_title_font_data_uri()}') format('truetype');
+            font-weight: bold;
+        }}
+        </style>
+        """
+    ).strip()
 
 
 def style_oe_columns(df: pd.DataFrame, *columns: str):
@@ -259,14 +280,18 @@ def render_homescreen() -> None:
     since components.html runs sandboxed in an iframe and can't reach
     back into Streamlit's own state) takes the visitor into the app."""
     st.markdown(
-        """
-        <div style="text-align:center; margin-top:2rem;">
-            <h1 style="margin-bottom:0;">Old English Repository</h1>
-            <p style="color:rgba(250,250,250,0.65); font-size:1.05rem; margin-top:0.3rem;">
-                Wilcuma. Welcome. Click Start when you're ready to begin.
-            </p>
-        </div>
-        """,
+        title_font_face_css()
+        + "\n\n"
+        + textwrap.dedent(
+            f"""
+            <div style="text-align:center; margin-top:2rem;">
+                <h1 style="margin-bottom:0; font-family:'Celtica', cursive; color:{OE_ACCENT};">Old English Repository</h1>
+                <p style="color:rgba(250,250,250,0.65); font-size:1.05rem; margin-top:0.3rem;">
+                    Wilcuma. Welcome. Click Start when you're ready to begin.
+                </p>
+            </div>
+            """
+        ).strip(),
         unsafe_allow_html=True,
     )
 
@@ -559,20 +584,17 @@ if not st.session_state.app_started:
     st.stop()
 
 st.markdown(
-    f"""
-    <style>
-    @font-face {{
-        font-family: 'Celtica';
-        src: url('{load_title_font_data_uri()}') format('truetype');
-        font-weight: bold;
-    }}
-    </style>
-    <div style="display:flex; align-items:center; gap:2.5rem;">
-        <h1 style="margin:0; font-size:3.6rem; font-family:'Celtica', cursive;">Old English Repository</h1>
-        <img src="{load_helmet_data_uri()}" alt="Sutton Hoo helmet"
-             style="width:110px; flex-shrink:0;">
-    </div>
-    """,
+    title_font_face_css()
+    + "\n\n"
+    + textwrap.dedent(
+        f"""
+        <div style="display:flex; align-items:center; gap:2.5rem;">
+            <h1 style="margin:0; font-size:3.6rem; font-family:'Celtica', cursive; color:{OE_ACCENT};">Old English Repository</h1>
+            <img src="{load_helmet_data_uri()}" alt="Sutton Hoo helmet"
+                 style="width:110px; flex-shrink:0;">
+        </div>
+        """
+    ).strip(),
     unsafe_allow_html=True,
 )
 
