@@ -510,3 +510,21 @@
 | benemnan | to declare, name, pronounce | verb | "aþe benemnan" — The Husband's Message, l.49 | Kluge, *Angelsächsisches Lesebuch* (1902) |
 | wǣr | covenant, pledge, agreement | noun, fem. | "þa wære ond þa winetreowe" — The Husband's Message, l.50 | Kluge, *Angelsächsisches Lesebuch* (1902) |
 | læstan | to perform, carry out, fulfill | verb | "læstan wolde" — The Husband's Message, l.51 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| mundbora | protector, guardian | noun, masc. | "mæga mundbora, Myrce geeode" — The Capture of the Five Boroughs, l.2 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| gegān | to conquer, overrun, occupy | verb | "Myrce geeode" — The Capture of the Five Boroughs, l.2 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| dēore | dear, precious | adjective | "dyre dædfruma" — The Capture of the Five Boroughs, l.3 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| dǣd | deed, action | noun, fem. | "dyre dædfruma" ("dear doer of deeds") — The Capture of the Five Boroughs, l.3 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| sceadan | to divide, separate | verb | "swa Dor sceadeþ" — The Capture of the Five Boroughs, l.3 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| geat | gate, gap, opening | noun, neut. | "Hwitanwylles geat" — The Capture of the Five Boroughs, l.4 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| ēa | river | noun, fem. | "Humbra ea" — The Capture of the Five Boroughs, l.4 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| brād | broad, wide | adjective | "brada brimstream" — The Capture of the Five Boroughs, l.5 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| brim | sea, surf, ocean | noun, neut. | "brada brimstream" — The Capture of the Five Boroughs, l.5 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| gebīgan | to bend, subject, force | verb | "nyde gebegde" — The Capture of the Five Boroughs, l.9 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| hǣðen | heathen, pagan | adjective/noun | "on hæþenra hæfteclommum" — The Capture of the Five Boroughs, l.10 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| clomm | fetter, bond, chain | noun, masc. | "hæfteclommum" — The Capture of the Five Boroughs, l.10 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| þrāg | time, period, while | noun, fem. | "lange þraga" — The Capture of the Five Boroughs, l.11 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| for | for, on account of, because of | preposition | "for his weorþscipe" — The Capture of the Five Boroughs, l.12 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| weorðscipe | honor, dignity, worthiness | noun, masc. | "for his weorþscipe" — The Capture of the Five Boroughs, l.12 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| wīgend | warrior, fighter | noun, masc. | "wiggendra hleo" — The Capture of the Five Boroughs, l.12 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| hlēo | shelter, protection, protector | noun, masc./neut. | "wiggendra hleo" — The Capture of the Five Boroughs, l.12 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| afera | son, descendant | noun, masc. | "afera Eadweardes" — The Capture of the Five Boroughs, l.13 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
