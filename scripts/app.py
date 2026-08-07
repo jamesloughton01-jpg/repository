@@ -26,6 +26,7 @@ RUNES_PATH = ROOT / "runes.md"
 NUMBERS_PATH = ROOT / "numbers.md"
 PRACTICE_PATH = ROOT / "practice-sentences.md"
 HELMET_PATH = ROOT / "assets" / "helmet.png"
+TITLE_FONT_PATH = ROOT / "assets" / "Celtica-Bold.ttf"
 
 st.set_page_config(page_title="Old English Repository", layout="wide")
 
@@ -59,6 +60,14 @@ def load_helmet_data_uri() -> str:
     inlined as a data URI so it renders without a separate HTTP request."""
     data = HELMET_PATH.read_bytes()
     return "data:image/png;base64," + base64.b64encode(data).decode("ascii")
+
+
+@st.cache_data
+def load_title_font_data_uri() -> str:
+    """Celtica-Bold (SIL Open Font License, see assets/), inlined as a data
+    URI so the title renders without any external font request."""
+    data = TITLE_FONT_PATH.read_bytes()
+    return "data:font/ttf;base64," + base64.b64encode(data).decode("ascii")
 
 
 def style_oe_columns(df: pd.DataFrame, *columns: str):
@@ -552,10 +561,14 @@ if not st.session_state.app_started:
 st.markdown(
     f"""
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+    @font-face {{
+        font-family: 'Celtica';
+        src: url('{load_title_font_data_uri()}') format('truetype');
+        font-weight: bold;
+    }}
     </style>
     <div style="display:flex; align-items:center; gap:2.5rem;">
-        <h1 style="margin:0; font-size:3.6rem; font-family:'MedievalSharp', cursive;">Old English Repository</h1>
+        <h1 style="margin:0; font-size:3.6rem; font-family:'Celtica', cursive;">Old English Repository</h1>
         <img src="{load_helmet_data_uri()}" alt="Sutton Hoo helmet"
              style="width:110px; flex-shrink:0;">
     </div>
