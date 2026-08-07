@@ -380,3 +380,133 @@
 | fȳr | fire | noun, neut. | "in fȳres fæþm, frōfre ne wēnan" — Beowulf, Fitt II | Wikisource: *Beowulf* (Wyatt) |
 | smiþ | smith | noun, masc. | "Sæt smið, sloh seax lytel" — Wið Færstice (metrical charm) | sacred-texts.com; Cook & Tinker (1902) |
 | glæs | glass | noun, neut. | "glisnaþ glæshluttur, gimmum gelīcust" — The Rune Poem | sacred-texts.com; Cook & Tinker (1902) |
+| giedd | song, poem, tale, speech | noun, neut. | "Ic þis giedd wrece bi me ful geomorre" — The Wife's Lament, l.1 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| wrecan | to utter, recite; also "to drive, avenge" | verb | "Ic þis giedd wrece" — The Wife's Lament, l.1 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| geomor | sad, mournful | adjective | "bi me ful geomorre" — The Wife's Lament, l.1 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| sylf | self, own | pronoun/adjective | "minre sylfre sið" — The Wife's Lament, l.2 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| sīð | journey, experience, expedition, time | noun, masc. | "minre sylfre sið" — The Wife's Lament, l.2 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| yrmþu | misery, wretchedness | noun, fem. | "hwæt ic yrmþa gebad" — The Wife's Lament, l.3 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| gebīdan | to experience, endure, wait for | verb | "yrmþa gebad" — The Wife's Lament, l.3 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| weaxan | to grow, increase | verb | "siþþan ic up weox" — The Wife's Lament, l.3 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| nīwe | new | adjective | "niwes oþþe ealdes" — The Wife's Lament, l.4 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| mā | more | adverb | "no ma þonne nu" — The Wife's Lament, l.4 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| wīte | punishment, torment | noun, neut. | "Ā ic wite wonn" — The Wife's Lament, l.5 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| winnan | to struggle, labor, suffer | verb | "wite wonn" — The Wife's Lament, l.5 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| wræcsíþ | exile-journey | noun, masc. | "minra wræcsiþa" — The Wife's Lament, l.5 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| ǣrest | first | adverb | "ærest min hlaford gewat" — The Wife's Lament, l.6 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| heonan | hence, from here | adverb | "gewat heonan of leodum" — The Wife's Lament, l.6 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| ofer | over, across | preposition | "ofer yþa gelac" — The Wife's Lament, l.7 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| ȳþ | wave | noun, fem. | "ofer yþa gelac" — The Wife's Lament, l.7 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| gelāc | tossing motion, play | noun, neut. | "ofer yþa gelac" — The Wife's Lament, l.7 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| cearu | care, sorrow, anxiety | noun, fem. | "hæfde ic uhtceare" — The Wife's Lament, l.7 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| fruma | beginning; chief, prince | noun, masc. | "min leodfruma" — The Wife's Lament, l.8 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| faran | to go, travel, journey | verb | "ic me feran gewat" — The Wife's Lament, l.9 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| folgað | following, service, retinue | noun, masc. | "folgað secan" — The Wife's Lament, l.9 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| sēcan | to seek | verb | "folgað secan" — The Wife's Lament, l.9 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| lēas | lacking, without, false | adjective/suffix | "wineleas wrecca" — The Wife's Lament, l.10 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| wrecca | exile, wanderer, wretch | noun, masc. | "wineleas wrecca" — The Wife's Lament, l.10 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| wēa | woe, misery, evil | noun, masc./neut. | "minre weaþearfe" — The Wife's Lament, l.10 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| hycgan | to think, consider, intend | verb | "magas hycgan" — The Wife's Lament, l.11 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| dyrne | secret, hidden | adjective | "þurh dyrne geþoht" — The Wife's Lament, l.12 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| geþoht | thought | noun, masc. | "þurh dyrne geþoht" — The Wife's Lament, l.12 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| dǣlan | to divide, share out, deal | verb | "þæt hy todælden unc" — The Wife's Lament, l.12 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| wit | we two | pronoun, dual | "þæt wit gewidost" — The Wife's Lament, l.13 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| lāð | hateful, hostile, loathsome | adjective | "lifdon laðlicost" — The Wife's Lament, l.14 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| longian | to long for (impersonal) | verb | "mec longade" — The Wife's Lament, l.14 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| hātan | to command, call, name | verb | "Het mec hlaford min" — The Wife's Lament, l.15 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| āgan | to own, possess | verb | "ahte ic leofra lyt" — The Wife's Lament, l.16 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| lyt | little, few | adverb/noun | "ahte ic leofra lyt" — The Wife's Lament, l.16 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| hold | loyal, gracious, faithful | adjective | "holdra freonda" — The Wife's Lament, l.17 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| gemæc | fitting, suitable, well-matched | adjective | "ful gemæcne monnan" — The Wife's Lament, l.18 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| sǣlig | happy, fortunate, blessed | adjective | "heardsæligne" — The Wife's Lament, l.19 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| mīþan | to hide, conceal | verb | "mod miþendne" — The Wife's Lament, l.20 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| morþor | murder, deadly crime | noun, neut. | "morþor hycgendne" — The Wife's Lament, l.20 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| blīþe | blithe, glad, cheerful | adjective | "Bliþe gebæro" — The Wife's Lament, l.21 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| gebǣru | bearing, demeanor, behavior | noun, neut. | "Bliþe gebæro" — The Wife's Lament, l.21 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| bēotian | to vow, promise, boast | verb | "ful oft wit beotedan" — The Wife's Lament, l.21 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| nemne | except, unless | conjunction | "nemne deað ana" — The Wife's Lament, l.22 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| āna | alone | adjective/adverb | "nemne deað ana" — The Wife's Lament, l.22 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| āwiht | anything | pronoun | "owiht elles" — The Wife's Lament, l.23 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| elles | else, otherwise | adverb | "owiht elles" — The Wife's Lament, l.23 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| hweorfan | to turn, change, go | verb | "is þæt onhworfen" — The Wife's Lament, l.23 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| freondscipe | friendship | noun, masc. | "freondscipe uncer" — The Wife's Lament, l.25 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| feor | far | adverb | "Sceal ic feor ge neah" — The Wife's Lament, l.25 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| nēah | near | adverb/adjective | "feor ge neah" — The Wife's Lament, l.25 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| fǣhðu | feud, hostility, enmity | noun, fem. | "fæhðu dreogan" — The Wife's Lament, l.26 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| drēogan | to endure, undergo | verb | "fæhðu dreogan" — The Wife's Lament, l.26 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| wunian | to dwell, remain | verb | "Heht mec mon wunian" — The Wife's Lament, l.27 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| bearu | grove, wood | noun, masc. | "on wuda bearwe" — The Wife's Lament, l.27 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| scræf | cave, den, pit | noun, neut. | "in þam eorðscræfe" — The Wife's Lament, l.28 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| sele | hall | noun, masc. | "þes eorðsele" — The Wife's Lament, l.29 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| denu | valley | noun, fem. | "sindon dena dimme" — The Wife's Lament, l.30 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| dimm | dim, dark, gloomy | adjective | "dena dimme" — The Wife's Lament, l.30 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| dūn | hill, down | noun, fem. | "duna uphea" — The Wife's Lament, l.30 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| biter | bitter, cruel | adjective | "bitre burgtunas" — The Wife's Lament, l.31 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| tūn | enclosure, farm, town | noun, masc. | "bitre burgtunas" — The Wife's Lament, l.31 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| brēr | briar | noun, masc./fem. | "brerum beweaxne" — The Wife's Lament, l.31 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| wrāð | wrathful, cruel, hostile | adjective | "mec her wraþe begeat" — The Wife's Lament, l.32 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| begitan | to get, obtain, seize, befall | verb | "wraþe begeat" — The Wife's Lament, l.32 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| frēa | lord | noun, masc. | "fromsiþ frean" — The Wife's Lament, l.33 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| leger | bed, lying-place, grave | noun, neut. | "leger weardiað" — The Wife's Lament, l.34 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| weardian | to guard, inhabit, occupy | verb | "leger weardiað" — The Wife's Lament, l.34 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| sittan | to sit | verb | "ic sittan mot" — The Wife's Lament, l.37 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| sumor | summer | noun, masc. | "sumorlangne dæg" — The Wife's Lament, l.37 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| gerestan | to rest | verb | "minre gerestan" — The Wife's Lament, l.40 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| longaþ | longing | noun, masc. | "þæs longaþes" — The Wife's Lament, l.41 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| heard | hard, harsh, stern | adjective | "heard heortan geþoht" — The Wife's Lament, l.43 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| woruld | world | noun, fem. | "eal his worulde wyn" — The Wife's Lament, l.46 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| fāh | hostile, guilty, stained | adjective | "ful wide fah" — The Wife's Lament, l.46 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| hlið | slope, cliff | noun, neut. | "under stanhliþe" — The Wife's Lament, l.48 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| storm | storm | noun, masc. | "storme behrimed" — The Wife's Lament, l.48 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| flōwan | to flow | verb | "wætre beflowen" — The Wife's Lament, l.49 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| gemunan | to remember, recall | verb | "he gemon to oft" — The Wife's Lament, l.51 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| wynlic | pleasant, joyful | adjective | "wynlicran wic" — The Wife's Lament, l.52 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| wā | woe | interjection/noun | "Wa bið þam þe sceal" — The Wife's Lament, l.52 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| bīdan | to wait for, await, endure | verb | "leofes abidan" — The Wife's Lament, l.53 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| ellor | elsewhere, to another place | adverb | "ellor londes" — The Husband's Message, l.3 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| tudor | offspring, progeny | noun, neut. | "ic tudre aweox" — The Husband's Message, l.2 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| sealt | salt | adjective | "sealte streamas" — The Husband's Message, l.4 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| hof | dwelling, hall, court | noun, neut. | "heah hofu" — The Husband's Message, l.7 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| ceol | ship, keel, boat | noun, masc. | "on ceolþele" — The Husband's Message, l.8 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| ymb | about, concerning | preposition | "hu þu ymb modlufan" — The Husband's Message, l.9 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| lufu | love | noun, fem. | "ymb modlufan mines frean" — The Husband's Message, l.9 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| dearr | to dare | verb, pret.-pres. | "Ic gehatan dear" — The Husband's Message, l.10 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| biddan | to ask, request, pray | verb | "þec þonne biddan het" — The Husband's Message, l.12 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| bēam | tree, beam, piece of wood | noun, masc. | "se þisne beam agrof" — The Husband's Message, l.12 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| āgrafan | to carve, engrave | verb | "þisne beam agrof" — The Husband's Message, l.12 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| sinc | treasure | noun, neut. | "sinchroden" — The Husband's Message, l.13 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| mōstan | to be allowed, might | verb, pret.-pres. | "þenden git moston" — The Husband's Message, l.16 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| fremman | to perform, accomplish, do | verb | "freondscype fremman" — The Husband's Message, l.18 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| adrīfan | to drive away, expel | verb | "fæhþo adraf" — The Husband's Message, l.18 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| lǣran | to teach, instruct, advise | verb | "lustum læran" — The Husband's Message, l.20 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| lagu | law; (poetic) sea, flood | noun, masc. | "þu lagu drefde" — The Husband's Message, l.20 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| drēfan | to trouble, disturb, stir up | verb | "þu lagu drefde" — The Husband's Message, l.20 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| ōra | edge, border, bank | noun, masc. | "hliþes oran" — The Husband's Message, l.21 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| galan | to sing, chant | verb | "galan geomorne geac" — The Husband's Message, l.22 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| gēac | cuckoo | noun, masc. | "geac on bearwe" — The Husband's Message, l.22 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| gelettan | to hinder, delay | verb | "lade gelettan" — The Husband's Message, l.24 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| mǣw | seagull | noun, masc. | "mæwes eþel" — The Husband's Message, l.25 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| suð | south | adverb | "þu suð heonan" — The Husband's Message, l.26 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| lād | way, journey, path | noun, fem. | "ofer merelade" — The Husband's Message, l.27 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| wēn | hope, expectation | noun, fem. | "þin on wenum" — The Husband's Message, l.28 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| gelimpan | to happen, occur, befall | verb | "willa gelimpan" — The Husband's Message, l.29 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| gemynd | mind, memory | noun, fem./neut. | "mara on gemyndum" — The Husband's Message, l.30 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| geunnan | to grant | verb | "þonne inc geunne" — The Husband's Message, l.31 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| ætsomne | together | adverb | "ætsomne siþþan motan" — The Husband's Message, l.32 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| gesíþ | companion | noun, masc. | "secgum ond gesiþum" — The Husband's Message, l.33 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| genōg | enough | adjective/adverb | "he genoh hafað" — The Husband's Message, l.34 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| fæger | fair, beautiful | adjective | "fægre foldan" — The Husband's Message, l.37 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| nēad | need, necessity, compulsion | noun, fem. | "nyde gebæded" — The Husband's Message, l.39 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| weg | way, road, path | noun, masc. | "faran on flotweg" — The Husband's Message, l.41 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| mengan | to mix, stir | verb | "mengan merestreamas" — The Husband's Message, l.42 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| gād | lack, want | noun, fem./neut. | "nis him wilna gad" — The Husband's Message, l.43 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| māðum | treasure, precious thing | noun, masc. | "meara ne maðma" — The Husband's Message, l.44 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| drēam | joy, mirth, revelry, music | noun, masc. | "meododreama" — The Husband's Message, l.44 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| ǣnig | any | pronoun/adjective | "ænges ofer eorþan" — The Husband's Message, l.45 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| benēotan | to enjoy, have the use of, possess | verb | "gif he þin beneah" — The Husband's Message, l.46 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| gecyrran | to turn, call together | verb | "Gecyre ic ætsomne" — The Husband's Message, l.48 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| geador | together | adverb | "ætsomne geador" — The Husband's Message, l.48 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| āþ | oath | noun, masc. | "aþe benemnan" — The Husband's Message, l.49 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| benemnan | to declare, name, pronounce | verb | "aþe benemnan" — The Husband's Message, l.49 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| wǣr | covenant, pledge, agreement | noun, fem. | "þa wære ond þa winetreowe" — The Husband's Message, l.50 | Kluge, *Angelsächsisches Lesebuch* (1902) |
+| læstan | to perform, carry out, fulfill | verb | "læstan wolde" — The Husband's Message, l.51 | Kluge, *Angelsächsisches Lesebuch* (1902) |
