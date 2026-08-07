@@ -404,8 +404,8 @@ else:
         "Dictionary; unmatched words are left as typed."
     )
 
-tab_vocab, tab_phrases, tab_grammar, tab_alphabet, tab_runes, tab_practice, tab_texts, tab_quiz = st.tabs(
-    ["Vocabulary", "Phrases", "Grammar", "Alphabet", "Runes", "Practice Sentences", "Texts", "Quiz"]
+tab_vocab, tab_grammar, tab_alphabet, tab_runes, tab_phrases_sentences, tab_texts, tab_quiz = st.tabs(
+    ["Vocabulary", "Grammar", "Alphabet", "Runes", "Phrases & Sentences", "Texts", "Quiz"]
 )
 
 with tab_vocab:
@@ -420,11 +420,6 @@ with tab_vocab:
             "HTML edition by mikepope.com, licensed CC BY-NC-SA 4.0."
         )
     st.dataframe(filtered_view(df, "vocab_search"), use_container_width=True, hide_index=True)
-    st.caption(f"{len(df)} entries")
-
-with tab_phrases:
-    df = load_table("phrases")
-    st.dataframe(filtered_view(df, "phrases_search"), use_container_width=True, hide_index=True)
     st.caption(f"{len(df)} entries")
 
 with tab_grammar:
@@ -461,7 +456,15 @@ with tab_runes:
             if sec["note"]:
                 st.markdown(sec["note"])
 
-with tab_practice:
+with tab_phrases_sentences:
+    st.header("Phrases")
+    df = load_table("phrases")
+    st.dataframe(filtered_view(df, "phrases_search"), use_container_width=True, hide_index=True)
+    st.caption(f"{len(df)} entries")
+
+    st.divider()
+
+    st.header("Practice Sentences")
     if not PRACTICE_PATH.exists():
         st.info("practice-sentences.md not found.")
     else:
