@@ -551,10 +551,10 @@ if not st.session_state.app_started:
 
 st.markdown(
     f"""
-    <div style="display:flex; align-items:center; gap:1rem;">
+    <div style="display:flex; align-items:center; gap:2.5rem;">
         <h1 style="margin:0;">Old English Repository</h1>
         <img src="{load_helmet_data_uri()}" alt="Sutton Hoo helmet"
-             style="width:56px; flex-shrink:0;">
+             style="width:110px; flex-shrink:0;">
     </div>
     """,
     unsafe_allow_html=True,
