@@ -39,9 +39,13 @@ for private language-learning use. Browsed and quizzed via a Streamlit app.
   from texts already in the repo; [`practice-sentences.md`](practice-sentences.md)
   — 46 original grammar-drilling sentences I composed (not from any text).
 - **App**: [`scripts/app.py`](scripts/app.py) — Streamlit app with tabs for
-  Vocabulary, Phrases, Grammar, Alphabet, Runes, Practice Sentences, Texts,
-  and Quiz (Words / Sentences / Fill-in-the-Blank modes), plus an animated
-  English↔Old English subtitle under the title.
+  Vocabulary, Grammar, Alphabet, Runes, Phrases & Sentences (merged),
+  Texts, and Quiz (Words / Sentences / Fill-in-the-Blank modes). Under
+  the title: an animated English↔Old English subtitle, and a word-for-word
+  translator search bar (Old English ⇄ Modern English, dictionary lookup
+  only — vocabulary.md first, then Sweet's Dictionary, unmatched words
+  left as typed; see `translate_text()` / `build_translation_maps()` in
+  `scripts/app.py`).
 - **Bulk dictionary**: Henry Sweet's *A Student's Dictionary of
   Anglo-Saxon*, ~25,600 entries, optional merge-in (see below).
 - **Sourcing note**: two texts (`durham.md`, `exeter-book-riddles.md`) had
@@ -84,14 +88,20 @@ to pick up where things left off. No other state needs to be carried over.
 - [`scripts/import_sweet.py`](scripts/import_sweet.py) — re-fetches and
   re-parses the Sweet dictionary source into `data/sweet-dictionary.csv`
 - [`scripts/app.py`](scripts/app.py) — Streamlit app (`streamlit run
-  scripts/app.py`) with Vocabulary/Phrases/Grammar/Alphabet/Runes/Practice
+  scripts/app.py`) with Vocabulary/Grammar/Alphabet/Runes/Phrases &
   Sentences/Texts/Quiz tabs; a checkbox optionally merges in Sweet's
   Dictionary. The Runes tab renders `runes.md`'s table as a grid of large
   clickable squares (`render_rune_grid()`, pure CSS click-to-reveal, no
-  server round-trip) instead of a plain table. **After editing any
-  Markdown file or rebuilding the DB, fully stop and restart the Streamlit
-  server** — `@st.cache_data` plus process reuse means a plain reload can
-  serve stale data.
+  server round-trip) instead of a plain table. The Phrases & Sentences
+  tab stacks `phrases.md`'s table above `practice-sentences.md`'s
+  subsections (both previously had their own tab). Under the title, a
+  word-for-word translator (`translate_text()` / `build_translation_maps()`)
+  does dictionary substitution only — no grammar/conjugation — so it
+  reliably handles headword-form input but leaves inflected forms
+  (e.g. "is" vs. the dictionary's "wesan") untranslated. **After editing
+  any Markdown file or rebuilding the DB, fully stop and restart the
+  Streamlit server** — `@st.cache_data` plus process reuse means a plain
+  reload can serve stale data.
 
 Each hand-curated file is a single Markdown table (one row = one entry) or,
 for larger reference sections, several tables split by `## ` subheadings.
