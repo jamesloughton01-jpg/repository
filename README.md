@@ -9,18 +9,24 @@ for private language-learning use. Browsed and quizzed via a Streamlit app.
 - **Vocabulary**: [`vocabulary.md`](vocabulary.md) — 508 hand-curated
   entries, cross-referenced against every text in `texts/` so common words
   appearing in the texts are covered.
-- **Texts**: [`texts/`](texts/) — 19 full parallel-translation (Old
+- **Texts**: [`texts/`](texts/) — 20 full parallel-translation (Old
   English / Modern English) works: Beowulf (partial — see note below),
   The Battle of Maldon, The Wanderer, The Seafarer, The Dream of the Rood,
   Cædmon's Hymn, The Ruin, Bede's Death Song, The Battle of Brunanburh,
   The Finnsburh Fragment, The Descent into Hell, Maxims I, The Rune Poem,
   Ælfric's Life of St Edmund, a curated Exeter Book Riddles selection,
-  Durham, a selection of Metrical Charms, The Wife's Lament, and The
-  Husband's Message. All Modern English translations are my own original
-  composition (see Sourcing below). **Beowulf is deliberately frozen** at
-  lines 1–257 (Prelude + Fitts I–III) and is not being extended further —
-  see the note at the top of `texts/beowulf.md` for why.
-- **Phrases**: [`phrases.md`](phrases.md) — 19 notable lines with citations.
+  Durham, a selection of Metrical Charms, The Wife's Lament, The
+  Husband's Message, and a short excerpt of The Proverbs of Alfred. All
+  Modern English translations are my own original composition (see
+  Sourcing below). **Beowulf is deliberately frozen** at lines 1–257
+  (Prelude + Fitts I–III) and is not being extended further — see the
+  note at the top of `texts/beowulf.md` for why. **The Proverbs of
+  Alfred is Early Middle English, not Old English** (c. 1150-1180) —
+  included for context/comparison, flagged clearly in its own header,
+  and kept to a 16-line excerpt because the source is a complex
+  four-manuscript critical edition (see note at the top of
+  `texts/the-proverbs-of-alfred.md`).
+- **Phrases**: [`phrases.md`](phrases.md) — 30 notable lines with citations.
 - **Grammar**: [`grammar.md`](grammar.md) — 11 topics (cases, gender, verb
   classes, adjective declension, word order, dual pronouns, negation,
   prepositions, the "sceal" construction, relative clauses, kennings).
