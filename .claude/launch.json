@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "old-english-app",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "streamlit", "run", "scripts/app.py", "--server.headless", "true"],
+      "port": 8501
+    }
+  ]
+}
