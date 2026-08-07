@@ -1,8 +1,8 @@
 # The Husband's Message
 
 Preserved in the Exeter Book, folio 123a, immediately before The Ruin.
-Often read as a companion piece to [The Wife's Lament](the-wifes-lament.md),
-though the connection is debated. The speaker is usually taken to be a
+Often read as a companion piece to *The Wife's Lament* (see the Texts
+dropdown above), though the connection is debated. The speaker is usually taken to be a
 rune-inscribed piece of wood — perhaps a staff or tally-stick — carrying a
 message from an exiled man to his wife or betrothed, urging her to sail
 south and rejoin him. The same manuscript damage that affects the
