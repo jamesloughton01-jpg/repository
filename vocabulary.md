@@ -702,3 +702,31 @@
 | lufian | to love | verb | "ænigne mon-cynnes mode gelufian" — Resignation B, l.42 | Thorpe, *Codex Exoniensis* (1842) |
 | æþeling | prince, nobleman | noun, masc. | "gelong, æþelinga wyn" — Resignation B, l.46 | Thorpe, *Codex Exoniensis* (1842) |
 | leoht | light | noun, neut. | "ic on leohte ne mæg" — Resignation B, l.46 | Thorpe, *Codex Exoniensis* (1842) |
+| mælcearu | care, sorrow (of troubled times) | noun, fem. | "Swa ða mælceare maga Healfdenes" — Beowulf, l.189 | Wikisource: *Beowulf* (Wyatt) |
+| snotor | wise, prudent | adjective | "ne mihte snotor hæleð" — Beowulf, l.190 | Wikisource: *Beowulf* (Wyatt) |
+| onwendan | to turn aside, change, avert | verb | "wean onwendan" — Beowulf, l.191 | Wikisource: *Beowulf* (Wyatt) |
+| swiþ | strong, severe, powerful | adjective | "wæs þæt gewin to swyð" — Beowulf, l.191 | Wikisource: *Beowulf* (Wyatt) |
+| lað | hateful, hostile | adjective | "lað ond longsum" — Beowulf, l.192 | Wikisource: *Beowulf* (Wyatt) |
+| langsum | long-lasting, tedious | adjective | "lað ond longsum" — Beowulf, l.192 | Wikisource: *Beowulf* (Wyatt) |
+| leod | person; (pl.) people, nation | noun, masc./fem. | "þe on ða leode becom" — Beowulf, l.192 | Wikisource: *Beowulf* (Wyatt) |
+| becuman | to come, arrive, befall | verb | "þe on ða leode becom" — Beowulf, l.192 | Wikisource: *Beowulf* (Wyatt) |
+| nydwracu | violent oppression, distress | noun, fem. | "nydwracu niþgrim" — Beowulf, l.193 | Wikisource: *Beowulf* (Wyatt) |
+| gefrignan | to learn by asking, hear of | verb | "Þæt fram ham gefrægn Higelaces þegn" — Beowulf, l.194 | Wikisource: *Beowulf* (Wyatt) |
+| eacen | great, mighty | adjective | "æþele ond eacen" — Beowulf, l.198 | Wikisource: *Beowulf* (Wyatt) |
+| gegyrwan | to prepare, equip, make ready | verb | "godne gegyrwan" — Beowulf, l.199 | Wikisource: *Beowulf* (Wyatt) |
+| guðcyning | war-king | noun, masc. | "cwæð, he guðcyning" — Beowulf, l.199 | Wikisource: *Beowulf* (Wyatt) |
+| swanrad | swan-road (kenning for the sea) | noun, fem. | "ofer swanrade secean wolde" — Beowulf, l.200 | Wikisource: *Beowulf* (Wyatt) |
+| þeoden | prince, lord, chief | noun, masc. | "mærne þeoden" — Beowulf, l.201 | Wikisource: *Beowulf* (Wyatt) |
+| ceorl | freeman, man (of non-noble rank) | noun, masc. | "Ðone siðfæt him snotere ceorlas" — Beowulf, l.202 | Wikisource: *Beowulf* (Wyatt) |
+| sundwudu | sea-wood (kenning for a ship) | noun, masc. | "sundwudu sohte" — Beowulf, l.208 | Wikisource: *Beowulf* (Wyatt) |
+| gewadan | to advance, make one's way | verb | "wundenstefna gewaden hæfde" — Beowulf, l.220 | Wikisource: *Beowulf* (Wyatt) |
+| liþan | to travel, sail, journey | verb | "þa wæs sund liden" — Beowulf, l.223 | Wikisource: *Beowulf* (Wyatt) |
+| sænæss | headland, sea-cliff | noun, masc. | "side sænæssas" — Beowulf, l.223 | Wikisource: *Beowulf* (Wyatt) |
+| þancian | to thank | verb | "Gode þancedon" — Beowulf, l.227 | Wikisource: *Beowulf* (Wyatt) |
+| fyrwit | curiosity | noun, neut. | "hine fyrwyt bræc" — Beowulf, l.232 | Wikisource: *Beowulf* (Wyatt) |
+| wæpen | weapon | noun, neut. | "wæpnum geweorðad" — Beowulf, l.250 | Wikisource: *Beowulf* (Wyatt) |
+| ansyn | face, countenance, appearance | noun, fem. | "ænlic ansyn" — Beowulf, l.251 | Wikisource: *Beowulf* (Wyatt) |
+| frumcynn | lineage, origin, ancestry | noun, neut. | "frumcyn witan" — Beowulf, l.252 | Wikisource: *Beowulf* (Wyatt) |
+| leas | false, lacking, devoid of | adjective | "leas sceaweras" — Beowulf, l.253 | Wikisource: *Beowulf* (Wyatt) |
+| feran | to go, travel, journey | verb | "furþur feran" — Beowulf, l.254 | Wikisource: *Beowulf* (Wyatt) |
+| ofost | haste | noun, fem. | "ofost is selest" — Beowulf, l.256 | Wikisource: *Beowulf* (Wyatt) |

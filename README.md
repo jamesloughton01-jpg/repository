@@ -6,7 +6,7 @@ for private language-learning use. Browsed and quizzed via a Streamlit app.
 
 ## Project status (last updated 2026-08-07)
 
-- **Vocabulary**: [`vocabulary.md`](vocabulary.md) — 700 hand-curated
+- **Vocabulary**: [`vocabulary.md`](vocabulary.md) — 728 hand-curated
   entries, cross-referenced against every text in `texts/` so common words
   appearing in the texts are covered.
 - **Texts**: [`texts/`](texts/) — 22 full parallel-translation (Old

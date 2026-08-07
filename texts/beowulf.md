@@ -220,3 +220,77 @@ work for this repository, prose rendering (not verse).
 | 186 | wihte gewendan; wel bið þæm þe mot | no change at all; well be it for him who may, |
 | 187 | æfter deaðdæge Drihten secean, | after his death-day, seek the Lord, |
 | 188 | ond to Fæder fæþmum freoðo wilnian. | and ask for protection in the Father's embrace. |
+
+## Fitt III — Beowulf's Voyage to Denmark
+
+| # | Old English | Modern English |
+|---|---|---|
+| 189 | Swa ða mælceare maga Healfdenes | So the kinsman of Healfdene |
+| 190 | singala seað; ne mihte snotor hæleð | continually brooded over that season's grief; the wise hero could not |
+| 191 | wean onwendan; wæs þæt gewin to swyð, | turn aside that misery; the struggle was too fierce, |
+| 192 | lað ond longsum, þe on ða leode becom, | hateful and long-lasting, which had come upon that people, |
+| 193 | nydwracu niþgrim, nihtbealwa mæst. | a grim, violent oppression, the worst of night-evils. |
+| 194 | Þæt fram ham gefrægn Higelaces þegn, | Hygelac's thegn heard of this from his home — |
+| 195 | god mid Geatum, Grendles dæda; | a good man among the Geats — Grendel's deeds; |
+| 196 | se wæs moncynnes mægenes strengest | he was, of all mankind, the strongest in might |
+| 197 | on þæm dæge þysses lifes, | in that day of this life, |
+| 198 | æþele ond eacen. Het him yðlidan | noble and mighty. He ordered a wave-crosser, |
+| 199 | godne gegyrwan; cwæð, he guðcyning | a good ship, made ready; he said he would seek out the war-king |
+| 200 | ofer swanrade secean wolde, | across the swan's-road, |
+| 201 | mærne þeoden, þa him wæs manna þearf. | the famous prince, since he had need of men. |
+| 202 | Ðone siðfæt him snotere ceorlas | Wise men did not at all |
+| 203 | lythwon logon, þeah he him leof wære; | reproach him for that expedition, dear to them though he was; |
+| 204 | hwetton hige[r]ofne, hæl sceawedon. | they urged the brave-hearted one on and studied the omens. |
+| 205 | Hæfde se goda Geata leoda | The good man had, from the people of the Geats, |
+| 206 | cempan gecorone, þara þe he cenoste | chosen champions, the boldest |
+| 207 | findan mihte; fiftena sum | that he could find; one of fifteen, |
+| 208 | sundwudu sohte; secg wisade, | he sought out the sea-wood; a man guided them, |
+| 209 | lagucræftig mon, landgemyrcu. | one skilled in seafaring, to the shore's boundary. |
+| 210 | Fyrst forð gewat; flota wæs on yðum, | Time went forward; the vessel was upon the waves, |
+| 211 | bat under beorge. Beornas gearwe | the boat under the cliff. The ready warriors |
+| 212 | on stefn stigon; streamas wundon | climbed onto the prow; the currents churned, |
+| 213 | sund wið sande; secgas bæron | the sea against the sand; the men carried |
+| 214 | on bearm nacan beorhte frætwe, | bright treasures into the ship's hold, |
+| 215 | guðsearo geatolic; guman ut scufon, | splendid war-gear; the men pushed out, |
+| 216 | weras on wilsið, wudu bundenne. | warriors on their longed-for journey, the well-built ship. |
+| 217 | Gewat þa ofer wægholm winde gefysed | Then, driven on by the wind, it went out over the wave-sea, |
+| 218 | flota famiheals fugle gelicost, | the foam-necked ship, most like a bird, |
+| 219 | oð þæt ymb antid oþres dogores | until, at about the same hour on the second day, |
+| 220 | wundenstefna gewaden hæfde, | the curved-prowed ship had made such progress |
+| 221 | þæt ða liðende land gesawon, | that the seafarers caught sight of land, |
+| 222 | brimclifu blican, beorgas steape, | sea-cliffs shining, steep hills, |
+| 223 | side sænæssas; þa wæs sund liden | wide headlands; then the sea-crossing was done, |
+| 224 | eoletes æt ende. Þanon up hraðe | the voyage at its end. From there, quickly, |
+| 225 | Wedera leode on wang stigon, | the people of the Weder-Geats climbed onto the plain, |
+| 226 | sæwudu sældon; syrcan hrysedon, | moored the sea-wood; their mail-shirts rattled, |
+| 227 | guðgewædo; Gode þancedon, | their war-garments; they gave thanks to God |
+| 228 | þæs þe him yðlade eaðe wurdon. | that the sea-paths had proved easy for them. |
+| 229 | Þa of wealle geseah weard Scildinga, | Then, from the rampart, the watchman of the Scyldings saw them, |
+| 230 | se þe holmclifu healdan scolde, | he whose task it was to guard the sea-cliffs, |
+| 231 | beran ofer bolcan beorhte randas, | men carrying bright shields over the gangway, |
+| 232 | fyrdsearu fuslicu; hine fyrwyt bræc | ready battle-gear; curiosity pressed at him, |
+| 233 | modgehygdum, hwæt þa men wæron. | in his heart's thoughts, as to what those men might be. |
+| 234 | Gewat him þa to waroðe wicge ridan | He then rode down to the shore on horseback, |
+| 235 | þegn Hroðgares, þrymmum cwehte | Hrothgar's thegn; he mightily brandished |
+| 236 | mægenwudu mundum, meþelwordum frægn: | the great spear in his hands, and asked in formal words: |
+| 237 | "Hwæt syndon ge searohæbbendra | "What sort of armed men are you, |
+| 238 | byrnum werede, þe þus brontne ceol | clad in mail-coats, who have thus brought a tall ship |
+| 239 | ofer lagustræte lædan cwomon, | here over the sea-road, |
+| 240 | hider ofer holmas [hringedstefnan]? | across the waves, a ring-prowed vessel? |
+| 241 | Ic wæs endesæta, ægwearde heold, | I have been a border-watchman, have kept the coast-guard, |
+| 242 | þe on land Dena laðra nænig | so that no enemy |
+| 243 | mid scipherge sceðþan ne meahte. | might harm the land of the Danes with a raiding fleet. |
+| 244 | No her cuðlicor cuman ongunnon | Never have shield-bearers set about coming here |
+| 245 | lindhæbbende; ne ge leafnesword | more openly than this; nor were you certain |
+| 246 | guðfremmendra gearwe ne wisson, | of the password used by fighting men, |
+| 247 | maga gemedu. Næfre ic maran geseah | the consent of kinsmen. Never have I seen a mightier |
+| 248 | eorla ofer eorþan, ðonne is eower sum, | warrior upon the earth than this one among you, |
+| 249 | secg on searwum; nis þæt seldguma | a man in his war-gear; he is no mere hall-retainer, |
+| 250 | wæpnum geweorðad, næfne him his wlite leoge, | honored with weapons — unless his looks belie him, |
+| 251 | ænlic ansyn. Nu ic eower sceal | his peerless face. Now I must learn |
+| 252 | frumcyn witan, ær ge fyr heonan, | your lineage, before you go any further from here |
+| 253 | leas[e] sceaweras, on land Dena | as false spies, into the land of the Danes. |
+| 254 | furþur feran. Nu ge feorbuend, | Now, you who dwell far off, |
+| 255 | mereliðende, min[n]e gehyrað | you sea-voyagers, hear this plain thought |
+| 256 | anfealdne geþoht; ofost is selest | of mine: haste is best, |
+| 257 | to gecyðanne, hwanan eowre cyme syndon." | to make known where you have come from." |
