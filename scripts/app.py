@@ -221,6 +221,19 @@ def load_sentence_pool() -> pd.DataFrame:
 
 
 _CLEAN_TERM_RE = re.compile(r"[A-Za-z][A-Za-z '-]*")
+_PARADIGM_GLOSS_RE = re.compile(
+    r"\(\s*(ic|þū|þu|hē|he|hēo|heo|hit|wē|we|gē|ge|hīe|hie|hi|þēc|þonne)\s*\)", re.IGNORECASE
+)
+
+
+def _is_paradigm_listing(gloss: str) -> bool:
+    """Sweet's Dictionary sometimes glosses an irregular verb (e.g. wesan)
+    with its whole conjugation table instead of a definition — 'wesan,
+    beon; (ic) eom, ... (he) is, bith; ...'. Splitting that on commas
+    would extract conjugated forms like 'is' as if they were synonyms
+    and wrongly map them back to the infinitive. Detected by parenthetical
+    pronoun markers and skipped entirely rather than parsed."""
+    return bool(_PARADIGM_GLOSS_RE.search(gloss))
 
 
 def _gloss_terms(gloss: str) -> list:
@@ -231,6 +244,8 @@ def _gloss_terms(gloss: str) -> list:
     (e.g. daggers marking obsolete words) — anything that isn't a clean
     run of letters is rejected rather than risk leaking that notation
     into a translation."""
+    if _is_paradigm_listing(gloss):
+        return []
     cleaned = re.sub(r"\([^)]*\)", " ", gloss)
     cleaned = re.sub(r"—.*$", "", cleaned)
     parts = re.split(r"[;,/]|\bor\b", cleaned)
