@@ -558,3 +558,108 @@
 | wīgend | warrior, fighter | noun, masc. | "wiggendra hleo" — The Capture of the Five Boroughs, l.12 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
 | hlēo | shelter, protection, protector | noun, masc./neut. | "wiggendra hleo" — The Capture of the Five Boroughs, l.12 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
 | afera | son, descendant | noun, masc. | "afera Eadweardes" — The Capture of the Five Boroughs, l.13 | Earle, *Two of the Saxon Chronicles Parallel* (1892) |
+| fitt | canto, section of a poem | noun, fem. | "Nū ic fitte gen ymb fisca cynn" — The Whale, l.1 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| wōð | song, poetry, eloquence | noun, fem. | "wille wōðcræfte wordum cȳþan" — The Whale, l.2 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| cȳþan | to make known | verb | "wille wōðcræfte wordum cȳþan" — The Whale, l.2 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| gemētan | to meet, encounter | verb | "Se bið unwillum oft gemēted" — The Whale, l.4 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| niþer | down, downward | adverb | "mid þā nōþe niþer gewīteþ" — The Whale, l.28 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| cennan | to bring forth, beget, name | verb | "þām is noma cenned" — The Whale, l.6 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| fyrn | ancient, of old | adjective | "fyrnstrēama geflotan" — The Whale, l.7 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| flēotan | to float | verb | "fyrnstrēama geflotan" — The Whale, l.7 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| hīw | appearance, form, hue | noun, neut. | "Is þæs hīw gelīc hrēofum stāne" — The Whale, l.8 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| gelīc | like, similar | adjective | "Is þæs hīw gelīc hrēofum stāne" — The Whale, l.8 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| hrēof | rough, scabby | adjective | "Is þæs hīw gelīc hrēofum stāne" — The Whale, l.8 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| worian | to wander, drift, totter | verb | "swylce worie bī wædes ōfre" — The Whale, l.9 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| wæd | water, sea | noun, fem./neut. | "swylce worie bī wædes ōfre" — The Whale, l.9 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| ōfer | shore, bank | noun, masc. | "swylce worie bī wædes ōfre" — The Whale, l.9 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| sond | sand | noun, neut. | "sondbeorgum ymbseald" — The Whale, l.10 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| wēnan | to think, expect, believe | verb | "swā þæt wēnaþ wǣglīþende" — The Whale, l.11 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| līþan | to travel, go, sail | verb | "swā þæt wēnaþ wǣglīþende" — The Whale, l.11 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| ēalond | island | noun, neut. | "þæt hȳ on ēalond sum ēagum wlīten" — The Whale, l.12 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| wlītan | to look, gaze | verb | "þæt hȳ on ēalond sum ēagum wlīten" — The Whale, l.12 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| gehȳdan | to moor (a ship) | verb | "ond þonne gehȳdað hēahstefn scipu" — The Whale, l.13 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| stefn | prow, stem (of a ship) | noun, masc./fem. | "ond þonne gehȳdað hēahstefn scipu" — The Whale, l.13 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| ancor | anchor | noun, masc. | "tō þām unlonde ancorrāpum" — The Whale, l.14 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| rāp | rope | noun, masc. | "tō þām unlonde ancorrāpum" — The Whale, l.14 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| sund | swimming, sea, strait | noun, neut. | "setlað sǣmēaras sundes æt ende" — The Whale, l.15 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| ferhþ | spirit, mind | noun, masc./neut. | "collenferhþe; ceolas stondað" — The Whale, l.17 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| biwindan | to wind around, encircle | verb | "bī staþe fæste, strēame biwunden" — The Whale, l.18 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| gewīcian | to encamp, take up quarters | verb | "Þonne gewīciað wērigferðe" — The Whale, l.19 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| wērig | weary | adjective | "Þonne gewīciað wērigferðe" — The Whale, l.19 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| ǣled | fire, flame | noun, masc. | "On þām ēalonde ǣled weccað" — The Whale, l.21 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| weccan | to kindle, awaken | verb | "On þām ēalonde ǣled weccað" — The Whale, l.21 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| ǣlan | to light, kindle, burn | verb | "hēahfȳr ǣleð; hæleþ bēoþ on wynnum" — The Whale, l.22 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| ræst | rest | noun, fem. | "reonigmōde, rǣste gelyste" — The Whale, l.23 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| lystan | to please, desire (impersonal) | verb | "reonigmōde, rǣste gelyste" — The Whale, l.23 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| gefēlan | to feel, perceive | verb | "Þonne gefēleð facnes cræftig" — The Whale, l.24 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| facn | deceit, treachery | noun, neut. | "Þonne gefēleð facnes cræftig" — The Whale, l.24 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| cræftig | skillful, cunning | adjective | "Þonne gefēleð facnes cræftig" — The Whale, l.24 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| weder | weather | noun, neut. | "wīc weardiað wedres on lyste" — The Whale, l.26 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| semninga | suddenly | adverb | "ðonne semninga on sealtne wǣg" — The Whale, l.27 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| grund | ground, bottom, abyss | noun, masc. | "garsecges gæst, grund gesēceð" — The Whale, l.29 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| gārsecg | ocean (poetic, lit. "spear-man") | noun, masc. | "garsecges gæst, grund gesēceð" — The Whale, l.29 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| drenc | drowning, drink | noun, masc. | "ond þonne in dēaðsele drence bifæsteð" — The Whale, l.30 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| befæstan | to commit, entrust, fasten | verb | "ond þonne in dēaðsele drence bifæsteð" — The Whale, l.30 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| scealc | servant, retainer, man | noun, masc. | "scipu mid scealcum" — The Whale, l.31 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| scinn | demon, evil spirit | noun, neut. | "Swā bið scinna þēaw" — The Whale, l.31 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| þēaw | custom, practice, habit | noun, masc. | "Swā bið scinna þēaw" — The Whale, l.31 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| wīse | manner, way | noun, fem. | "dēofla wīse: þæt hī drohtiende" — The Whale, l.32 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| drohtian | to live, dwell, behave | verb | "dēofla wīse: þæt hī drohtiende" — The Whale, l.32 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| miht | power, might | noun, fem. | "þurh dyrne miht duguðe beswīcað" — The Whale, l.33 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| duguð | host, retinue, veterans | noun, fem. | "þurh dyrne miht duguðe beswīcað" — The Whale, l.33 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| beswīcan | to deceive | verb | "þurh dyrne miht duguðe beswīcað" — The Whale, l.33 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| tyhtan | to entice, incite | verb | "ond on tēosu tyhtað tilra dǣda" — The Whale, l.34 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| wēman | to persuade, allure | verb | "wēmað on willan, þæt hȳ wrāþe sēcen" — The Whale, l.35 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| frōfor | comfort, consolation | noun, fem. | "frōfre tō fēondum, oþþæt hȳ fæste ðǣr" — The Whale, l.36 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| wǣrloga | oath-breaker, traitor | noun, masc. | "æt þām wǣrlogan wīc gecēosað" — The Whale, l.37 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| gecnāwan | to know, perceive, acknowledge | verb | "Þonne geācnāweð of cwicsūsle" — The Whale, l.38 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| sūsl | torment | noun, neut. | "Þonne geācnāweð of cwicsūsle" — The Whale, l.38 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| flāh | deceitful, treacherous | adjective | "flāh feond gemāh, þætte fīra gehwylc" — The Whale, l.39 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| bend | bond, fetter | noun, fem. | "hæleþa cynnes on his bendum bið" — The Whale, l.40 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| bona | slayer, killer | noun, masc. | "fæste gefēged, þā him feorhbona" — The Whale, l.41 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| slīþen | cruel, dire | adjective | "þurh slīþen searo siþþan weorþeð" — The Whale, l.42 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| searu | device, cunning, skill | noun, neut. | "þurh slīþen searo siþþan weorþeð" — The Whale, l.42 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| wlonc | proud | adjective | "wlōncum ond heānum, þā his willan hēr" — The Whale, l.43 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| hēan | lowly, despised, humble | adjective | "wlōncum ond heānum, þā his willan hēr" — The Whale, l.43 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| firen | sin, crime | noun, fem. | "firenum fremmaþ; mid þām hē fēringa" — The Whale, l.44 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| biþeccan | to cover | verb | "heoloþhelme biþeaht helle sēceð" — The Whale, l.45 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| wylm | surge, welling, flood | noun, masc. | "goda gǣsne, grundlēasne wylm" — The Whale, l.46 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| mist | mist | noun, masc. | "under mistglōme, swā se micla hwæl" — The Whale, l.47 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| glōm | gloom, twilight | noun, fem. | "under mistglōme, swā se micla hwæl" — The Whale, l.47 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| bisencan | to sink, submerge | verb | "se þe bisenceð sæliþende" — The Whale, l.48 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| gecynd | nature, kind | noun, fem./neut. | "Hē hafað ōþre gecynd" — The Whale, l.49 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| wrætlic | wondrous, curious, ornate | adjective | "wæterþisa wlonc, wrǣtlicran gīen" — The Whale, l.50 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| holm | sea, ocean, wave | noun, masc. | "þonne hine on holme hungor bysgað" — The Whale, l.51 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| bysgian | to occupy, trouble, busy | verb | "þonne hine on holme hungor bysgað" — The Whale, l.51 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| āglǣca | fierce combatant, monster | noun, masc. | "ond þone āglǣcan ǣtes lysteþ" — The Whale, l.52 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| weard | guardian | noun, masc. | "ðonne se mereweard mūð ontȳneð" — The Whale, l.53 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| ontȳnan | to open | verb | "ðonne se mereweard mūð ontȳneð" — The Whale, l.53 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| weler | lip | noun, masc. | "wide weleras; cymeð wynsum stenc" — The Whale, l.54 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| wynsum | pleasant, delightful | adjective | "wide weleras; cymeð wynsum stenc" — The Whale, l.54 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| stenc | scent, smell | noun, masc. | "wide weleras; cymeð wynsum stenc" — The Whale, l.54 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| innoþ | inside, belly, womb | noun, masc. | "of his innoþe, þætte ōðre þurh þone" — The Whale, l.55 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| weorod | troop, company, multitude | noun, neut. | "unware weorode, oþþæt se wīda ceafl" — The Whale, l.59 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| ceafl | jaw | noun, masc. | "unware weorode, oþþæt se wīda ceafl" — The Whale, l.59 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| gefyllan | to fill | verb | "gefylled bið; þonne fǣringa" — The Whale, l.60 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| hūþ | plunder, booty, prey | noun, fem. | "ymbe þā herehūþe hlemmeð tōgædre" — The Whale, l.61 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| hlemman | to clap, slam together | verb | "ymbe þā herehūþe hlemmeð tōgædre" — The Whale, l.61 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| gōma | jaw, palate, gum | noun, masc. | "grimme gōman. Swā bið gumena gehwām" — The Whale, l.62 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| guma | man | noun, masc. | "grimme gōman. Swā bið gumena gehwām" — The Whale, l.62 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| besceawian | to look at, consider, examine | verb | "on þas lǣnan tīd līf besceawað" — The Whale, l.64 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| lǣne | transitory, fleeting, loaned | adjective | "on þas lǣnan tīd līf besceawað" — The Whale, l.64 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| tīd | time | noun, fem. | "on þas lǣnan tīd līf besceawað" — The Whale, l.64 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| leahtor | sin, vice, fault | noun, masc. | "lēasne willan, þæt hē bið leahtrum fāh" — The Whale, l.66 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| wuldor | glory | noun, neut. | "wið wuldorcyning. Him se āwyrgda ongēan" — The Whale, l.67 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| āwyrgan | to curse, damn | verb | "wið wuldorcyning. Him se āwyrgda ongēan" — The Whale, l.67 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| ongēan | against, in return, toward | preposition/adverb | "wið wuldorcyning. Him se āwyrgda ongēan" — The Whale, l.67 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| rǣd | counsel, advice | noun, masc. | "ofer ferhtgereaht fremede on unrǣd" ("unrǣd" = folly, bad counsel) — The Whale, l.70 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| fæsten | stronghold; a fast (from food) | noun, neut. | "Þonne se fācna in þām fæstenne" — The Whale, l.71 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| cleofian | to cling, adhere | verb | "æt þām edwylme, þā þe him on cleofiað" — The Whale, l.73 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| gylt | guilt, sin, offense | noun, masc. | "gyltum gehrodene, ond ǣr georne his" — The Whale, l.74 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| cwalu | killing, death | noun, fem. | "æfter feorhcwale, fæste tōgædre" — The Whale, l.77 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| hwyrft | turning, return | noun, masc. | "helle hlindura; nāgon hwyrft ne swice" — The Whale, l.78 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| wiðsacan | to renounce, deny | verb | "dryhtna dryhtne, ond ā dēoflum wiðsace" — The Whale, l.83 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| weorc | work, deed | noun, neut. | "wordum ond weorcum, þæt wē wuldorcyning" — The Whale, l.84 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| sibb | peace, kinship, relationship | noun, fem. | "gesēon mōton. Uton ā sibbe tō him" — The Whale, l.85 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| hǣlu | salvation, health, healing | noun, fem. | "on þās hwīlnan tīd hǣlu sēcan" — The Whale, l.86 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| nēotan | to enjoy, make use of | verb | "tō wīdan feore wuldres nēotan!" — The Whale, l.88 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |

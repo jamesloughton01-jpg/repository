@@ -6,18 +6,19 @@ for private language-learning use. Browsed and quizzed via a Streamlit app.
 
 ## Project status (last updated 2026-08-07)
 
-- **Vocabulary**: [`vocabulary.md`](vocabulary.md) — 555 hand-curated
+- **Vocabulary**: [`vocabulary.md`](vocabulary.md) — 661 hand-curated
   entries, cross-referenced against every text in `texts/` so common words
   appearing in the texts are covered.
-- **Texts**: [`texts/`](texts/) — 20 full parallel-translation (Old
+- **Texts**: [`texts/`](texts/) — 21 full parallel-translation (Old
   English / Modern English) works: Beowulf (partial — see note below),
   The Battle of Maldon, The Wanderer, The Seafarer, The Dream of the Rood,
   Cædmon's Hymn, The Ruin, Bede's Death Song, The Battle of Brunanburh,
   The Finnsburh Fragment, The Descent into Hell, Maxims I, The Rune Poem,
   Ælfric's Life of St Edmund, a curated Exeter Book Riddles selection,
   Durham, a selection of Metrical Charms, The Wife's Lament, The
-  Husband's Message, and a short excerpt of The Proverbs of Alfred. All
-  Modern English translations are my own original composition (see
+  Husband's Message, The Capture of the Five Boroughs, a short excerpt
+  of The Proverbs of Alfred, and The Whale. All Modern English
+  translations are my own original composition (see
   Sourcing below). **Beowulf is deliberately frozen** at lines 1–257
   (Prelude + Fitts I–III) and is not being extended further — see the
   note at the top of `texts/beowulf.md` for why. **The Proverbs of
