@@ -63,7 +63,10 @@
       "Bash(python -c \"import PyPDF2\")",
       "Bash(python -c \"import fitz\")",
       "Bash(python -c \"import pdfplumber\")",
-      "Bash(python -m pip install pypdf --quiet)"
+      "Bash(python -m pip install pypdf --quiet)",
+      "Bash(curl -sL \"https://archive.org/download/codexexoniensis00thorgoog/codexexoniensis00thorgoog_djvu.txt\" -o thorpe_codex.txt --max-time 120)",
+      "Bash(curl -sL \"https://archive.org/download/bibliothekderang00grei/bibliothekderang00grei_djvu.txt\" -o grein_orig.txt --max-time 120)",
+      "Bash(curl -sL \"https://archive.org/download/codexexoniensisc00sociuoft/codexexoniensisc00sociuoft_djvu.txt\" -o thorpe2.txt --max-time 120)"
     ]
   }
 }

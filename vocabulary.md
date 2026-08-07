@@ -663,3 +663,42 @@
 | sibb | peace, kinship, relationship | noun, fem. | "gesēon mōton. Uton ā sibbe tō him" — The Whale, l.85 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
 | hǣlu | salvation, health, healing | noun, fem. | "on þās hwīlnan tīd hǣlu sēcan" — The Whale, l.86 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
 | nēotan | to enjoy, make use of | verb | "tō wīdan feore wuldres nēotan!" — The Whale, l.88 | Grein-Wülcker, *Bibliothek der angelsächsischen Poesie* (1897) |
+| hyrde | guardian, shepherd, keeper | noun, masc. | "leohtes hyrde" — Resignation A, l.9 | Thorpe, *Codex Exoniensis* (1842) |
+| getacnian | to signify, show, betoken | verb | "getacna me, tungla hyrde" — Resignation A, l.11 | Thorpe, *Codex Exoniensis* (1842) |
+| gemearcian | to mark out, appoint | verb | "to gemearcianne meotudes willan" — Resignation A, l.13 | Thorpe, *Codex Exoniensis* (1842) |
+| soð | true | adjective | "on me sylfum, soðcræft cyning" — Resignation A, l.15 | Thorpe, *Codex Exoniensis* (1842) |
+| sceþþan | to harm, injure | verb | "on sceade sceþþan" — Resignation A, l.17 | Thorpe, *Codex Exoniensis* (1842) |
+| liss | grace, favor, kindness | noun, fem. | "Forgif me to lisse, lifgende god" — Resignation A, l.20 | Thorpe, *Codex Exoniensis* (1842) |
+| bot | remedy, penance, compensation | noun, fem. | "ic þa bote gemon" — Resignation A, l.21 | Thorpe, *Codex Exoniensis* (1842) |
+| costung | temptation, trial | noun, fem. | "to costunge" — Resignation A, l.26 | Thorpe, *Codex Exoniensis* (1842) |
+| gestaðelian | to establish, confirm | verb | "standan gestaðelad" — Resignation A, l.43 | Thorpe, *Codex Exoniensis* (1842) |
+| foreþonc | forethought, premeditation | noun, masc. | "forhte fore-þoncas" — Resignation A, l.42 | Thorpe, *Codex Exoniensis* (1842) |
+| oferhydig | proud, arrogant, presumptuous | adjective | "englas oferhydige, þonne ece Crist" — Resignation A, l.61 | Thorpe, *Codex Exoniensis* (1842) |
+| lēogan | to lie, deceive | verb | "Gelugon hy him æt þam geleafan" — Resignation A, l.62 | Thorpe, *Codex Exoniensis* (1842) |
+| wiht | creature, being, thing | noun, fem. | "wræge wihta, wræce þrowian" — Resignation A, l.63 | Thorpe, *Codex Exoniensis* (1842) |
+| wræc | exile, misery, vengeance | noun, neut. | "wræce þrowian" — Resignation A, l.63 | Thorpe, *Codex Exoniensis* (1842) |
+| scildan | to shield, protect | verb | "Forscild þu mec and gescyld him" — Resignation A, l.64 | Thorpe, *Codex Exoniensis* (1842) |
+| wearn | obstacle, refusal, danger | noun, fem. | "ic ymb sawle eom wearn-sið forht" — Resignation B, l.2 | Thorpe, *Codex Exoniensis* (1842) |
+| meord | reward, recompense | noun, fem. | "þe sie ealles þonc, meorda and miltsa" — Resignation B, l.4 | Thorpe, *Codex Exoniensis* (1842) |
+| gearwian | to prepare, make ready | verb | "gæst gearwian" — Resignation B, l.10 | Thorpe, *Codex Exoniensis* (1842) |
+| wītan | to blame, reproach, punish (distinct from *witan* "to know") | verb | "hwæþre me frea wite" — Resignation B, l.12 | Thorpe, *Codex Exoniensis* (1842) |
+| belgan | to become angry, enrage | verb | "Gode ic hæbbe abolgen" — Resignation B, l.14-15 | Thorpe, *Codex Exoniensis* (1842) |
+| geswencan | to afflict, trouble, oppress | verb | "forþon ic þus bitre wear geswencet" — Resignation B, l.15-16 | Thorpe, *Codex Exoniensis* (1842) |
+| martyrdom | martyrdom | noun, masc. | "þæt ic martyrdom beorne aþreoðe" — Resignation B, l.17-18 | Thorpe, *Codex Exoniensis* (1842) |
+| aþreotan | to grow weary of, be tedious (impersonal) | verb | "þæt ic martyrdom beorne aþreoðe" — Resignation B, l.18 | Thorpe, *Codex Exoniensis* (1842) |
+| fyrhto | fear, terror | noun, fem. | "fyrhto in folce" — Resignation B, l.24 | Thorpe, *Codex Exoniensis* (1842) |
+| āfȳsan | to drive out, impel, hasten | verb | "forþon ic afysed eom" — Resignation B, l.24 | Thorpe, *Codex Exoniensis* (1842) |
+| gnornian | to mourn, lament | verb | "gnornaþ on his geoguðe" — Resignation B, l.28 | Thorpe, *Codex Exoniensis* (1842) |
+| geoguð | youth | noun, fem. | "gnornaþ on his geoguðe" — Resignation B, l.28 | Thorpe, *Codex Exoniensis* (1842) |
+| fullæstan | to help, support, assist | verb | "ne huru þæs freonda þe me gefylste" — Resignation B, l.37 | Thorpe, *Codex Exoniensis* (1842) |
+| cwide | speech, saying, utterance | noun, masc. | "sar-cwide secga" — Resignation B, l.30 | Thorpe, *Codex Exoniensis* (1842) |
+| morgen | morning | noun, masc. | "mod morgen-seoc" — Resignation B, l.31 | Thorpe, *Codex Exoniensis* (1842) |
+| cuð | known, familiar | adjective | "Ic bi me cuðlicost secge þis sorh-spell" — Resignation B, l.32 | Thorpe, *Codex Exoniensis* (1842) |
+| spell | tale, story, narrative | noun, neut. | "secge þis sorh-spell" — Resignation B, l.32 | Thorpe, *Codex Exoniensis* (1842) |
+| bycgan | to buy | verb | "hwy ic bycge bat on gearwe" — Resignation B, l.35 | Thorpe, *Codex Exoniensis* (1842) |
+| gearu | ready, prepared | adjective | "hwy ic bycge bat on gearwe" — Resignation B, l.35 | Thorpe, *Codex Exoniensis* (1842) |
+| æht | possession, property | noun, fem. | "fore minum won-æhtum willan aþreotan" — Resignation B, l.39 | Thorpe, *Codex Exoniensis* (1842) |
+| cnear | ship, small vessel | noun, masc. | "cnearum lædan" — Resignation B, l.41 | Thorpe, *Codex Exoniensis* (1842) |
+| lufian | to love | verb | "ænigne mon-cynnes mode gelufian" — Resignation B, l.42 | Thorpe, *Codex Exoniensis* (1842) |
+| æþeling | prince, nobleman | noun, masc. | "gelong, æþelinga wyn" — Resignation B, l.46 | Thorpe, *Codex Exoniensis* (1842) |
+| leoht | light | noun, neut. | "ic on leohte ne mæg" — Resignation B, l.46 | Thorpe, *Codex Exoniensis* (1842) |
