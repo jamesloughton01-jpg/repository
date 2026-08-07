@@ -259,6 +259,37 @@ def _gloss_terms(gloss: str) -> list:
     return terms
 
 
+# The translator only matches exact dictionary headwords (no conjugation
+# awareness), so even a very common verb like "habban" translates its own
+# infinitive fine but not "hæbbe" ("I have"). Full conjugation is out of
+# scope, but these five verbs are so frequent that leaving every inflected
+# form untranslated would make the translator feel broken on ordinary
+# sentences. This supplements (never overrides) the dictionary-driven
+# Old-English-to-Modern-English direction only; translating a Modern
+# English verb still correctly produces the Old English infinitive.
+_IRREGULAR_OE_VERB_FORMS = {
+    # habban "to have"
+    "hæbbe": "have", "hafast": "have", "hafaþ": "have", "hafað": "have",
+    "hæfst": "have", "hæfð": "have", "hæfþ": "have",
+    "habbaþ": "have", "habbað": "have",
+    "hæfde": "had", "hæfdest": "had", "hæfdon": "had",
+    # wesan / bēon "to be"
+    "eom": "am", "eart": "are", "is": "is", "sind": "are", "sindon": "are",
+    "beo": "am", "bist": "are", "biþ": "is", "bið": "is", "beoþ": "are", "beoð": "are",
+    "wæs": "was", "wære": "were", "wæron": "were",
+    # willan "will, to wish"
+    "wille": "want", "wilt": "want", "wile": "wants",
+    "willað": "want", "willaþ": "want",
+    "wolde": "wanted", "woldest": "wanted", "woldon": "wanted",
+    # sculan "shall, must"
+    "sceal": "must", "scealt": "must", "sculon": "must",
+    "sceolde": "had to", "sceoldon": "had to",
+    # magan "may, to be able"
+    "mæg": "can", "meaht": "can", "miht": "can", "magon": "can",
+    "meahte": "could", "mihte": "could", "meahton": "could", "mihton": "could",
+}
+
+
 @st.cache_data
 def build_translation_maps() -> tuple:
     """Build word-lookup dicts for the translator box: Old English -> a
@@ -288,6 +319,12 @@ def build_translation_maps() -> tuple:
 
     index(load_table("vocabulary"))
     index(load_table("vocabulary_sweet"))
+
+    # Deliberately overrides any dictionary-derived entry for these exact
+    # forms (e.g. Sweet's "is" also glosses the unrelated noun "ice") --
+    # as a common verb form, "is" should win over a rarer homograph.
+    oe_to_mode.update(_IRREGULAR_OE_VERB_FORMS)
+
     return oe_to_mode, mode_to_oe
 
 
