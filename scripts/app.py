@@ -330,6 +330,19 @@ def render_homescreen() -> None:
             font-weight: 700;
             padding: 0.7rem 3.5rem;
             border-radius: 999px;
+            background-color: transparent;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+        }
+        div[data-testid="stButton"] button[kind="primary"]:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+            border: 2px solid #ffffff;
+        }
+        div[data-testid="stButton"] button[kind="primary"]:focus:not(:active) {
+            background-color: transparent;
+            color: #ffffff;
+            border: 2px solid #ffffff;
         }
         </style>
         """,
