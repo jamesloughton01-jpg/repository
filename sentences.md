@@ -36,3 +36,28 @@ normalized for readability. Sources: see the individual texts in
 | Þā forhtode se bisceop. | Then the bishop was afraid. | Ælfric's Life of St Edmund |
 | Hē wæs ēadmōd and geþungen. | He was humble and virtuous. | Ælfric's Life of St Edmund |
 | Nū sculon herigean heofonrīces Weard. | Now we must praise the Guardian of the heavenly kingdom. | Cædmon's Hymn, l.1 |
+| Nap nihtscua, norþan sniwde. | The night-shadow grew dark; it snowed from the north. | The Seafarer, l.31 |
+| Hungor innan slāt. | Hunger tore from within. | The Seafarer, l.11 |
+| Hē hæfde gōd geþanc. | He had good resolve. | The Battle of Maldon, l.13 |
+| Bēot hē gelǣste. | He fulfilled his vow. | The Battle of Maldon, l.15 |
+| Byrhtnōð ongan beornas trymian. | Byrhtnoth began to array the warriors. | The Battle of Maldon, l.17 |
+| Fǣge feollon. | Doomed, they fell. | The Battle of Brunanburh, l.12 |
+| Feld dennode. | The field grew dark. | The Battle of Brunanburh, l.12 |
+| Sāh tō setle. | It sank to its setting. | The Battle of Brunanburh, l.17 |
+| Feoh byþ frōfur fira gehwylcum. | Wealth is a comfort to every man. | The Rune Poem, l.1 |
+| Þæt is mōdig wuht. | That is a brave creature. | The Rune Poem, l.6 |
+| Ræst wæs ācolad. | The resting-place had grown cold. | The Descent into Hell, l.6 |
+| Hæleð wæron mōdge. | The guards were brave. | The Descent into Hell, l.7 |
+| Cwōm sēo murnende Maria on dægred. | The mourning Mary came at daybreak. | The Descent into Hell, l.9 |
+| Wrætlic is þes wealstan. | Wondrous is this wall-stone. | The Ruin, l.1 |
+| Hrōfas sind gehrorene. | Roofs have collapsed. | The Ruin, l.3 |
+| Ūt, lytel spere, gif her inne sīe! | Out, little spear, if it is in here! | Wið Færstice (metrical charm) |
+| Hāl westu, helpe ðīn drihten! | Be whole — may the Lord help you! | Wið Færstice (metrical charm) |
+| Fō ic under fōt, funde ic hit. | I seize it under foot, I have found it. | For a Swarm of Bees (metrical charm) |
+| Ic þis giedd wrece. | I compose this song. | The Wife's Lament, l.1 |
+| Eald is þes eorðsele. | Old is this earth-hall. | The Wife's Lament, l.29 |
+| Eom nū hēr cumen. | I have now come here. | The Husband's Message, l.7 |
+| Hē genōh hafað. | He has enough. | The Husband's Message, l.34 |
+| Wiht cwōm æfter wege wrætlicu līþan. | A creature came traveling, wondrous, over the wave. | Exeter Book Riddle 33 (Iceberg), l.1 |
+| Ic wāt indryhtne æþelum deorne. | I know a noble guest, dear in his nature. | Exeter Book Riddle 43 (Soul and Body), l.1 |
+| Cyning mec gyrweþ. | A king adorns me. | Exeter Book Riddle 20 (Sword), l.9 |
