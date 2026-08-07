@@ -22,6 +22,7 @@ DB_PATH = ROOT / "old_english.db"
 TEXTS_DIR = ROOT / "texts"
 ALPHABET_PATH = ROOT / "alphabet.md"
 RUNES_PATH = ROOT / "runes.md"
+NUMBERS_PATH = ROOT / "numbers.md"
 PRACTICE_PATH = ROOT / "practice-sentences.md"
 
 st.set_page_config(page_title="Old English Repository", layout="wide")
@@ -404,8 +405,8 @@ else:
         "Dictionary; unmatched words are left as typed."
     )
 
-tab_vocab, tab_grammar, tab_alphabet, tab_runes, tab_phrases_sentences, tab_texts, tab_quiz = st.tabs(
-    ["Vocabulary", "Grammar", "Alphabet", "Runes", "Phrases & Sentences", "Texts", "Quiz"]
+tab_vocab, tab_grammar, tab_numbers, tab_alphabet, tab_runes, tab_phrases_sentences, tab_texts, tab_quiz = st.tabs(
+    ["Vocabulary", "Grammar", "Numbers", "Alphabet", "Runes", "Phrases & Sentences", "Texts", "Quiz"]
 )
 
 with tab_vocab:
@@ -426,6 +427,22 @@ with tab_grammar:
     df = load_table("grammar")
     st.dataframe(filtered_view(df, "grammar_search"), use_container_width=True, hide_index=True)
     st.caption(f"{len(df)} entries")
+
+with tab_numbers:
+    if not NUMBERS_PATH.exists():
+        st.info("numbers.md not found.")
+    else:
+        header, sections = load_text(str(NUMBERS_PATH))
+        st.markdown(header)
+        for sec in sections:
+            if sec["title"]:
+                st.subheader(sec["title"])
+            row_height = min(600, 38 * (len(sec["df"]) + 1) + 3)
+            st.dataframe(
+                sec["df"], use_container_width=True, hide_index=True, height=row_height
+            )
+            if sec["note"]:
+                st.markdown(sec["note"])
 
 with tab_alphabet:
     if not ALPHABET_PATH.exists():

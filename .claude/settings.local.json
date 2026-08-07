@@ -58,7 +58,12 @@
       "Bash(curl -sL \"https://archive.org/download/bub_gb_sIUPAAAAMAAJ/bub_gb_sIUPAAAAMAAJ_djvu.txt\" -o lesebuch.txt --max-time 60)",
       "Bash(curl -sL \"https://archive.org/download/bibliothekderangelsachsischenpoesieb3h1/Bibliothek_der_angelsachsischen_Poesie_B3_H1_djvu.txt\" -o grein_b3h1.txt --max-time 90)",
       "Bash(curl -sL \"https://archive.org/download/proverbsalfred00skeagoog/proverbsalfred00skeagoog_djvu.txt\" -o proverbs_alfred.txt --max-time 90)",
-      "Bash(curl -sL \"https://archive.org/download/twosaxonchronic00earlgoog/twosaxonchronic00earlgoog_djvu.txt\" -o asc_earle.txt --max-time 90)"
+      "Bash(curl -sL \"https://archive.org/download/twosaxonchronic00earlgoog/twosaxonchronic00earlgoog_djvu.txt\" -o asc_earle.txt --max-time 90)",
+      "Bash(python -c \"import pypdf\")",
+      "Bash(python -c \"import PyPDF2\")",
+      "Bash(python -c \"import fitz\")",
+      "Bash(python -c \"import pdfplumber\")",
+      "Bash(python -m pip install pypdf --quiet)"
     ]
   }
 }

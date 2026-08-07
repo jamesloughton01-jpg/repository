@@ -253,6 +253,35 @@
 | fīftēne | fifteen | numeral | "fīftena sum sundwudu sōhte" — Beowulf, l.207 | Wikisource: *Beowulf* (Wyatt) |
 | hund | hundred | numeral | "oð hund cnēa werþēoda gewitan" — Maxims I | sacred-texts.com; Cook & Tinker (1902) |
 | þūsend | thousand | numeral | "ēac þūsend þīnra engla" — A Journey Charm | sacred-texts.com; Cook & Tinker (1902) |
+| eahta | eight | numeral | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| nigon | nine | numeral | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| tīen | ten | numeral | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| endlefan | eleven | numeral | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| twelf | twelve | numeral | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| þrēotīene | thirteen | numeral | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| fēowertīene | fourteen | numeral | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| twentig | twenty | numeral | originally a noun governing gen. pl. — see Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| þrītig | thirty | numeral | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| fēowertig | forty | numeral | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| fīftig | fifty | numeral | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| siofontig | seventy | numeral | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| eahtatig | eighty | numeral | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| nigontig | ninety | numeral | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| hundtēontig | hundred | numeral | more precise than the generic "hund" — see Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| hundælleftig | hundred and ten | numeral | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| hundtwelftig | hundred and twenty | numeral | "the long hundred," base-12 reckoning — see Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| forma | first | numeral, ordinal | suppletive, unrelated to *ān* — see Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| ōþer | second; other | numeral, ordinal / adjective | very common in both senses — see Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| þridda | third | numeral, ordinal | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| fēorþa | fourth | numeral, ordinal | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| fīfta | fifth | numeral, ordinal | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| siexta | sixth | numeral, ordinal | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| siofoþa | seventh | numeral, ordinal | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| eahtoþa | eighth | numeral, ordinal | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| nigoþa | ninth | numeral, ordinal | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| tēoþa | tenth | numeral, ordinal | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| endlefta | eleventh | numeral, ordinal | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
+| twelfta | twelfth | numeral, ordinal | See Numbers tab | Old English Numeral (K. Lemeshuk); Mitchell & Robinson |
 | mōnaþ | month | noun, masc. | "þæt hē mē gesōht... siex mōnaþ" — The Descent into Hell | sacred-texts.com; Cook & Tinker (1902) |
 | swēora | neck | noun, masc. | "his swura wæs gehālod þe ǣr wæs forslagen" — Ælfric's Life of St Edmund | Wikisource: Skeat's *Ælfric's Lives of Saints* (1881) |
 | eaxl | shoulder | noun, fem. | "bæron mē ðǣr beornas on eaxlum" — The Dream of the Rood | Wikisource: The Dream of the Rood |

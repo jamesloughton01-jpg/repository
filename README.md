@@ -6,7 +6,7 @@ for private language-learning use. Browsed and quizzed via a Streamlit app.
 
 ## Project status (last updated 2026-08-07)
 
-- **Vocabulary**: [`vocabulary.md`](vocabulary.md) — 508 hand-curated
+- **Vocabulary**: [`vocabulary.md`](vocabulary.md) — 555 hand-curated
   entries, cross-referenced against every text in `texts/` so common words
   appearing in the texts are covered.
 - **Texts**: [`texts/`](texts/) — 20 full parallel-translation (Old
@@ -30,6 +30,14 @@ for private language-learning use. Browsed and quizzed via a Streamlit app.
 - **Grammar**: [`grammar.md`](grammar.md) — 11 topics (cases, gender, verb
   classes, adjective declension, word order, dual pronouns, negation,
   prepositions, the "sceal" construction, relative clauses, kennings).
+- **Numbers**: [`numbers.md`](numbers.md) — cardinal (1–2000) and ordinal
+  (1st–100th) numerals, plus full case/gender declension tables for
+  "twēgen" (two) and "þrīe" (three), the only numbers that decline like
+  adjectives. Facts cross-checked against a 2020 student presentation by
+  Kateryna Lemeshuk (no clear license — treated as a source of facts
+  only; all explanatory prose here is my own, citing Mitchell &
+  Robinson for the grammar). All new numeral headwords are also in
+  `vocabulary.md`, so they work in the Vocabulary tab and the translator.
 - **Alphabet**: [`alphabet.md`](alphabet.md) — letters and pronunciation.
 - **Runes**: [`runes.md`](runes.md) — all 29 Futhorc runes plus background
   on their development and replacement by the Latin alphabet; shown in the
@@ -39,8 +47,9 @@ for private language-learning use. Browsed and quizzed via a Streamlit app.
   from texts already in the repo; [`practice-sentences.md`](practice-sentences.md)
   — 46 original grammar-drilling sentences I composed (not from any text).
 - **App**: [`scripts/app.py`](scripts/app.py) — Streamlit app with tabs for
-  Vocabulary, Grammar, Alphabet, Runes, Phrases & Sentences (merged),
-  Texts, and Quiz (Words / Sentences / Fill-in-the-Blank modes). Under
+  Vocabulary, Grammar, Numbers, Alphabet, Runes, Phrases & Sentences
+  (merged), Texts, and Quiz (Words / Sentences / Fill-in-the-Blank
+  modes). Under
   the title: an animated English↔Old English subtitle, and a word-for-word
   translator search bar (Old English ⇄ Modern English, dictionary lookup
   only — vocabulary.md first, then Sweet's Dictionary, unmatched words
@@ -64,6 +73,8 @@ to pick up where things left off. No other state needs to be carried over.
 - [`vocabulary.md`](vocabulary.md) — individual words (hand-curated)
 - [`phrases.md`](phrases.md) — idioms, formulas, and notable lines from texts
 - [`grammar.md`](grammar.md) — case system, verb classes, syntax rules
+- [`numbers.md`](numbers.md) — cardinal/ordinal numerals and the
+  declension tables for "two" and "three"
 - [`alphabet.md`](alphabet.md) — letters, vowels, consonant/pronunciation rules
 - [`runes.md`](runes.md) — the 29 Futhorc runes, their development, and
   their replacement by the Latin alphabet
@@ -82,14 +93,14 @@ to pick up where things left off. No other state needs to be carried over.
 - [`scripts/build_db.py`](scripts/build_db.py) — compiles the Markdown
   tables (`vocabulary.md`, `phrases.md`, `grammar.md`, `sentences.md`) and
   the Sweet CSV into `old_english.db` (SQLite) for querying and quizzing.
-  `texts/*.md`, `alphabet.md`, `runes.md`, and `practice-sentences.md` are
-  read live from disk by the app instead, since they don't fit the
-  single-table shape.
+  `texts/*.md`, `alphabet.md`, `runes.md`, `numbers.md`, and
+  `practice-sentences.md` are read live from disk by the app instead,
+  since they don't fit the single-table shape.
 - [`scripts/import_sweet.py`](scripts/import_sweet.py) — re-fetches and
   re-parses the Sweet dictionary source into `data/sweet-dictionary.csv`
 - [`scripts/app.py`](scripts/app.py) — Streamlit app (`streamlit run
-  scripts/app.py`) with Vocabulary/Grammar/Alphabet/Runes/Phrases &
-  Sentences/Texts/Quiz tabs; a checkbox optionally merges in Sweet's
+  scripts/app.py`) with Vocabulary/Grammar/Numbers/Alphabet/Runes/Phrases
+  & Sentences/Texts/Quiz tabs; a checkbox optionally merges in Sweet's
   Dictionary. The Runes tab renders `runes.md`'s table as a grid of large
   clickable squares (`render_rune_grid()`, pure CSS click-to-reveal, no
   server round-trip) instead of a plain table. The Phrases & Sentences
