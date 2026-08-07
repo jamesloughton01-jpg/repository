@@ -7,6 +7,7 @@ phrases, and grammar tables with search/filter, plus a quiz mode. Also
 reads the parallel-text poems directly from texts/*.md.
 """
 
+import base64
 import html
 import random
 import re
@@ -24,6 +25,7 @@ ALPHABET_PATH = ROOT / "alphabet.md"
 RUNES_PATH = ROOT / "runes.md"
 NUMBERS_PATH = ROOT / "numbers.md"
 PRACTICE_PATH = ROOT / "practice-sentences.md"
+HELMET_PATH = ROOT / "assets" / "helmet.png"
 
 st.set_page_config(page_title="Old English Repository", layout="wide")
 
@@ -50,22 +52,13 @@ def filtered_view(df: pd.DataFrame, key: str) -> pd.DataFrame:
 
 OE_ACCENT = "#FF4B4B"
 
-# Stylized line-art of the Sutton Hoo helmet (original rendering, not traced
-# from any existing icon/photo), transparent background, drawn in the same
-# red as OE_ACCENT so it matches the rest of the app's Old English styling.
-HELMET_SVG = f"""<svg viewBox="0 0 240 320" xmlns="http://www.w3.org/2000/svg"
-    fill="none" stroke="{OE_ACCENT}" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
-  <path d="M90,60 C90,25 103,10 120,10 C137,10 150,25 150,60"/>
-  <path d="M120,10 L120,30"/>
-  <path d="M50,85 C50,74 66,66 88,66 L152,66 C174,66 190,74 190,85 L190,96 C190,105 178,110 162,110 L120,130 L78,110 C62,110 50,105 50,96 Z"/>
-  <ellipse cx="88" cy="90" rx="11" ry="9" fill="{OE_ACCENT}" stroke="none"/>
-  <ellipse cx="152" cy="90" rx="11" ry="9" fill="{OE_ACCENT}" stroke="none"/>
-  <path d="M120,130 L120,196"/>
-  <path d="M120,188 C100,193 85,203 78,220 C73,232 80,242 92,238 C104,234 112,220 116,206"/>
-  <path d="M120,188 C140,193 155,203 162,220 C167,232 160,242 148,238 C136,234 128,220 124,206"/>
-  <path d="M60,100 C35,115 22,150 24,190 C26,230 35,265 52,290 C58,298 68,296 68,286 C56,262 50,232 50,198 C50,164 58,132 78,112 Z"/>
-  <path d="M180,100 C205,115 218,150 216,190 C214,230 205,265 188,290 C182,298 172,296 172,286 C184,262 190,232 190,198 C190,164 182,132 162,112 Z"/>
-</svg>"""
+
+@st.cache_data
+def load_helmet_data_uri() -> str:
+    """Sutton Hoo helmet artwork (red linework, transparent background),
+    inlined as a data URI so it renders without a separate HTTP request."""
+    data = HELMET_PATH.read_bytes()
+    return "data:image/png;base64," + base64.b64encode(data).decode("ascii")
 
 
 def style_oe_columns(df: pd.DataFrame, *columns: str):
@@ -560,7 +553,8 @@ st.markdown(
     f"""
     <div style="display:flex; align-items:center; gap:1rem;">
         <h1 style="margin:0;">Old English Repository</h1>
-        <div style="width:66px; flex-shrink:0;">{HELMET_SVG}</div>
+        <img src="{load_helmet_data_uri()}" alt="Sutton Hoo helmet"
+             style="width:56px; flex-shrink:0;">
     </div>
     """,
     unsafe_allow_html=True,
