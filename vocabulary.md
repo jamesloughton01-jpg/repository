@@ -730,3 +730,58 @@
 | leas | false, lacking, devoid of | adjective | "leas sceaweras" — Beowulf, l.253 | Wikisource: *Beowulf* (Wyatt) |
 | feran | to go, travel, journey | verb | "furþur feran" — Beowulf, l.254 | Wikisource: *Beowulf* (Wyatt) |
 | ofost | haste | noun, fem. | "ofost is selest" — Beowulf, l.256 | Wikisource: *Beowulf* (Wyatt) |
+| igland | island | noun, neut. | "Hwæt! Ic iglanda eallra hæbbe" — Solomon and Saturn I, l.2 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| onbyrgan | to taste | verb | "boca onbyrged" — Solomon and Saturn I, l.3 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| larcræft | learning, lore-craft | noun, masc. | "larcræftas onlocen" — Solomon and Saturn I, l.4 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| fyrngewrit | ancient writing | noun, neut. | "on eallum þam fyrngewrytum" — Solomon and Saturn I, l.9 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| samnian | to gather, collect | verb | "soðe samnode" — Solomon and Saturn I, l.10 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| eorlscipe | nobility, valor | noun, masc. | "oððe eorlscipes" — Solomon and Saturn I, l.12 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| gepalmtwigod | palm-branched | adjective | "se gepalmtwigoda Pater Noster" — Solomon and Saturn I, l.13 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| geseman | to reconcile, settle | verb | "gesemesð mec mid soðe" — Solomon and Saturn I, l.19 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| gesund | safe, sound, healthy | adjective | "ic mec gesund fare" — Solomon and Saturn I, l.19 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| hrycg | back, ridge | noun, masc. | "on wæteres hrigc" — Solomon and Saturn I, l.20 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| unlæde | wretched, unfortunate | adjective | "Unlæde bið on eorþan" — Solomon and Saturn I, l.23 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| nieten | beast, animal | noun, neut. | "weallað swa nieten" — Solomon and Saturn I, l.24 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| domdæg | doomsday, day of judgment | noun, masc. | "on domdæge" — Solomon and Saturn I, l.28 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| gesceaft | creation, created thing | noun, fem. | "eall ðeos leohte gesceaft" — Solomon and Saturn I, l.32 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| ontynan | to open, unlock | verb | "ða halgan duru ... ontynan" — Solomon and Saturn I, l.40-41 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| gemiltsian | to have mercy, be merciful | verb | "metod gemiltsað" — Solomon and Saturn I, l.45 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| onælan | to kindle | verb | "dryhtnes onæleð" — Solomon and Saturn I, l.46 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| tydernes | frailty, weakness | noun, fem. | "for XII fyra tydernessum" — Solomon and Saturn I, l.51 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| cantic | song, canticle | noun, masc. | "hafað se cantic" — Solomon and Saturn I, l.53 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| widmære | widely famous | adjective | "widmærost word" — Solomon and Saturn I, l.54 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| asceadan | to separate | verb | "asceadan of scyldum" — Solomon and Saturn I, l.61 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| snytro | wisdom | noun, fem. | "He bið seofan snytro" — Solomon and Saturn I, l.72 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| meolc | milk | noun, fem. | "and modes meolc" — Solomon and Saturn I, l.73 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| feter | fetter | noun, fem. | "feterum gefæstnað" — Solomon and Saturn I, l.76 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| læce | physician, healer | noun, masc. | "Lamena he is læce" — Solomon and Saturn I, l.83 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| seld | seat, hall, dwelling | noun, neut. | "scyppendes seld" — Solomon and Saturn I, l.85 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| ferigend | ferryman, carrier | noun, masc. | "flodes ferigend" — Solomon and Saturn I, l.86 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| nerigend | savior | noun, masc. | "folces nerigend" — Solomon and Saturn I, l.86 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| yrfeweard | heir | noun, masc. | "yða yrfeweard" — Solomon and Saturn I, l.87 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| weorðmynt | honor, dignity | noun, fem. | "weorðmynta geard" — Solomon and Saturn I, l.89 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| bocstæf | letter (of the alphabet) | noun, masc. | "bocstafa brego" — Solomon and Saturn I, l.105 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| brego | prince, lord | noun, masc. | "bocstafa brego" — Solomon and Saturn I, l.105 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| flint | flint | noun, masc. | "læteð flint brecan" — Solomon and Saturn I, l.106 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| wigsteall | battle-refuge, stronghold | noun, neut. | "wigsteall seceð" — Solomon and Saturn I, l.109 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| heolstor | darkness, hiding place | noun, masc. | "heolstre behelmed" — Solomon and Saturn I, l.110 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| eðelrice | homeland, native kingdom | noun, neut. | "ðæs ængestan eðelrices" — Solomon and Saturn I, l.112 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| flæschoma | body, flesh ("flesh-covering") | noun, masc. | "fremdne flæschoman" — Solomon and Saturn I, l.116 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| geræswa | leader, chief | noun, masc. | "engla geræswa" — Solomon and Saturn I, l.117 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| folctoga | leader of the people, general | noun, masc. | "frome folctogan" — Solomon and Saturn I, l.125 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| dynt | blow, stroke | noun, masc. | "deorra dynta" — Solomon and Saturn I, l.128 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| hæftling | captive, prisoner | noun, masc. | "helle hæftling" — Solomon and Saturn I, l.132 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| bana | slayer, killer | noun, masc. | "banan heardlice" — Solomon and Saturn I, l.137 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| gilp | boast | noun, masc. | "ðæs hie oft gilp brecað" — Solomon and Saturn I, l.138 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| ædre | vein, artery | noun, fem. | "bledað ædran" — Solomon and Saturn I, l.150 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| manful | wicked, sinful | adjective | "manfulra heap" — Solomon and Saturn I, l.154 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| bancofa | body ("bone-chamber") | noun, masc. | "æfter bancofan" — Solomon and Saturn I, l.156 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| flota | ship, boat | noun, masc. | "hwilum flotan gripað" — Solomon and Saturn I, l.157 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| fæge | doomed, fated to die | adjective | "fæges mannes" — Solomon and Saturn I, l.164 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| tiligan | to strive for, labor for | verb | "lifes tiligan" — Solomon and Saturn I, l.166 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| bill | sword, blade | noun, neut. | "bill forscrifeð" — Solomon and Saturn I, l.168 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| mece | sword | noun, masc. | "meces mærðo" — Solomon and Saturn I, l.169 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| palmtreow | palm-tree | noun, neut. | "ðæt palmtreow biddan" — Solomon and Saturn I, l.173-174 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| folm | hand, palm | noun, fem. | "feorh and folme" — Solomon and Saturn I, l.175 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| heahcyning | high king | noun, masc. | "hateð ðonne heahcining" — Solomon and Saturn I, l.179 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |
+| betynan | to shut, close | verb | "helle betynan" — Solomon and Saturn I, l.179 | Kemble, *Dialogue of Salomon and Saturnus* (1848) |

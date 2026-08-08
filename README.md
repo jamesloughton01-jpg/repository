@@ -6,10 +6,10 @@ for private language-learning use. Browsed and quizzed via a Streamlit app.
 
 ## Project status (last updated 2026-08-07)
 
-- **Vocabulary**: [`vocabulary.md`](vocabulary.md) — 728 hand-curated
+- **Vocabulary**: [`vocabulary.md`](vocabulary.md) — 783 hand-curated
   entries, cross-referenced against every text in `texts/` so common words
   appearing in the texts are covered.
-- **Texts**: [`texts/`](texts/) — 22 full parallel-translation (Old
+- **Texts**: [`texts/`](texts/) — 23 full parallel-translation (Old
   English / Modern English) works: Beowulf (partial — see note below),
   The Battle of Maldon, The Wanderer, The Seafarer, The Dream of the Rood,
   Cædmon's Hymn, The Ruin, Bede's Death Song, The Battle of Brunanburh,
@@ -17,15 +17,15 @@ for private language-learning use. Browsed and quizzed via a Streamlit app.
   Ælfric's Life of St Edmund, a curated Exeter Book Riddles selection,
   Durham, a selection of Metrical Charms, The Wife's Lament, The
   Husband's Message, The Capture of the Five Boroughs, a short excerpt
-  of The Proverbs of Alfred, The Whale, and Resignation A & B. All
-  Modern English translations are my own original composition (see
-  Sourcing below). **Beowulf is deliberately frozen** at lines 1–257
-  (Prelude + Fitts I–III) and is not being extended further — see the
-  note at the top of `texts/beowulf.md` for why. **The Proverbs of
-  Alfred is Early Middle English, not Old English** (c. 1150-1180) —
-  included for context/comparison, flagged clearly in its own header,
-  and kept to a 16-line excerpt because the source is a complex
-  four-manuscript critical edition (see note at the top of
+  of The Proverbs of Alfred, The Whale, Resignation A & B, and Solomon
+  and Saturn (I). All Modern English translations are my own original
+  composition (see Sourcing below). **Beowulf is deliberately frozen**
+  at lines 1–257 (Prelude + Fitts I–III) and is not being extended
+  further — see the note at the top of `texts/beowulf.md` for why. **The
+  Proverbs of Alfred is Early Middle English, not Old English** (c.
+  1150-1180) — included for context/comparison, flagged clearly in its
+  own header, and kept to a 16-line excerpt because the source is a
+  complex four-manuscript critical edition (see note at the top of
   `texts/the-proverbs-of-alfred.md`). **Resignation A & B** was the
   hardest text in this collection to source cleanly: the only public-
   domain edition I could find (Thorpe, 1842) uses a period Anglo-Saxon
@@ -34,7 +34,13 @@ for private language-learning use. Browsed and quizzed via a Streamlit app.
   line-by-line meaning check, and the Modern English translation was
   then substantially rewritten in independent phrasing rather than
   adapted from his wording — see the note at the top of
-  `texts/resignation.md` for the full methodology.
+  `texts/resignation.md` for the full methodology. **Solomon and Saturn**
+  is one of four Old English works grouped under that name; only the
+  first poem (Solomon and Saturn I, the Pater Noster letter-battle) is
+  included, in full, since it's the one complete, self-contained unit —
+  see the note at the top of `texts/solomon-and-saturn.md` for why the
+  other three (Solomon and Saturn II and two prose dialogues) are left
+  out.
 - **Phrases**: [`phrases.md`](phrases.md) — 30 notable lines with citations.
 - **Grammar**: [`grammar.md`](grammar.md) — 11 topics (cases, gender, verb
   classes, adjective declension, word order, dual pronouns, negation,
